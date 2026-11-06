@@ -1,0 +1,2041 @@
+{
+  "wb-3-113": {
+    "title": "府城玉皇庙",
+    "note": "第三批3-113，区别于第六批北义城玉皇庙"
+  },
+  "wb-5-251": {
+    "title": "洪福寺 (定襄)",
+    "note": "第五批，宏道镇北社村，区别于第八批留晖洪福寺"
+  },
+  "wb-3-168": {
+    "rejectedImages": [
+      "Segalen-27-Xiao-Xiu-Winged-lion-right.jpg"
+    ],
+    "note": "此图是南京萧秀墓，不能作为丹阳陵墓石刻的配图"
+  },
+  "wb-7-1456": {
+    "rejectedImages": [
+      "许三湾古城+绵羊木乃伊.jpg"
+    ],
+    "note": "原Wikidata P18配图与洮州卫城不符"
+  },
+  "wb-7-1014": {
+    "rejectedCategories": [
+      "Nanwu Village"
+    ],
+    "rejectedImages": [
+      "Jiangshan Nanwu 2016.10.06 17-43-37.jpg",
+      "Jiangshan Nanwu 2016.10.06 17-44-02.jpg"
+    ],
+    "note": "南坞村相册中的管氏节孝坊不是杨氏宗祠"
+  },
+  "wb-5-27": {
+    "rejectedCategories": [
+      "Xituanshan culture"
+    ],
+    "rejectedImages": [
+      "Pottery vessels excavated from Houshishan, Jilin City.jpg"
+    ],
+    "note": "西团山文化相册涵盖其他遗址；后石山出土陶器不用于西团山遗址配图"
+  },
+  "wb-7-500": {
+    "rejectedImages": [
+      "A Sanskrit manuscript of Lotus Sutra in South Turkestan Brahmi script.jpg"
+    ],
+    "note": "经卷图片说明未确认出土点；采用同相册中明确标注的达玛沟佛寺遗址布局图"
+  },
+  "wb-1-4": {
+    "title": "韶山冲毛泽东同志故居",
+    "reviewedRevisionId": 94060431,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94060431"
+  },
+  "wb-1-39": {
+    "title": "炳靈寺石窟",
+    "reviewedRevisionId": 94780448,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94780448"
+  },
+  "wb-1-77": {
+    "title": "义慈惠石柱",
+    "reviewedRevisionId": 94224345,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94224345"
+  },
+  "wb-1-106": {
+    "title": "北海公园",
+    "reviewedRevisionId": 92021278,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92021278"
+  },
+  "wb-1-141": {
+    "title": "郑州商城遗址",
+    "reviewedRevisionId": 94360511,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94360511"
+  },
+  "wb-1-150": {
+    "title": "燕下都",
+    "reviewedRevisionId": 88056434,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88056434"
+  },
+  "wb-1-176": {
+    "title": "杭州岳王庙",
+    "reviewedRevisionId": 92773532,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92773532"
+  },
+  "wb-2-17": {
+    "title": "玉泉寺 (当阳市)",
+    "reviewedRevisionId": 92583516,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92583516"
+  },
+  "wb-2-22": {
+    "title": "玄妙观 (苏州市)",
+    "reviewedRevisionId": 91298072,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91298072",
+    "imageSubject": "三清殿"
+  },
+  "wb-2-26": {
+    "title": "显通寺",
+    "reviewedRevisionId": 87079051,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87079051"
+  },
+  "wb-2-37": {
+    "title": "蓬莱水城",
+    "reviewedRevisionId": 85388241,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85388241"
+  },
+  "wb-2-52": {
+    "title": "丸都城",
+    "reviewedRevisionId": 93086393,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93086393"
+  },
+  "wb-3-18": {
+    "title": "云南陆军讲武堂",
+    "reviewedRevisionId": 93931882,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93931882"
+  },
+  "wb-3-61": {
+    "title": "崇武古城",
+    "reviewedRevisionId": 92173783,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92173783"
+  },
+  "wb-3-74": {
+    "title": "白鹿洞书院",
+    "reviewedRevisionId": 95052658,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95052658"
+  },
+  "wb-3-105": {
+    "title": "开元寺 (正定)",
+    "reviewedRevisionId": 86000131,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86000131",
+    "imageSubject": "钟楼"
+  },
+  "wb-3-162": {
+    "title": "上饶集中营",
+    "reviewedRevisionId": 92186249,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92186249"
+  },
+  "wb-3-214": {
+    "title": "嘎仙洞遺址",
+    "reviewedRevisionId": 89600935,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89600935"
+  },
+  "wb-3-220": {
+    "title": "元上都",
+    "reviewedRevisionId": 94393370,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94393370"
+  },
+  "wb-3-225": {
+    "title": "定窑",
+    "reviewedRevisionId": 86437340,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86437340"
+  },
+  "wb-3-240": {
+    "title": "医圣祠",
+    "reviewedRevisionId": 94116948,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94116948"
+  },
+  "wb-4-36": {
+    "title": "五女山城",
+    "reviewedRevisionId": 86545756,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86545756"
+  },
+  "wb-4-103": {
+    "title": "元妙观 (莆田)",
+    "reviewedRevisionId": 91486441,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91486441",
+    "imageSubject": "三清殿"
+  },
+  "wb-4-119": {
+    "title": "霍州署",
+    "reviewedRevisionId": 94200073,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94200073",
+    "imageSubject": "大堂"
+  },
+  "wb-4-130": {
+    "title": "北京鼓楼和钟楼",
+    "reviewedRevisionId": 93118634,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93118634"
+  },
+  "wb-4-141": {
+    "title": "棠樾牌坊群",
+    "reviewedRevisionId": 92993703,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92993703"
+  },
+  "wb-4-155": {
+    "title": "丘浚故居",
+    "reviewedRevisionId": 89562274,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89562274"
+  },
+  "wb-4-185": {
+    "title": "升庵桂湖",
+    "reviewedRevisionId": 92487730,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92487730"
+  },
+  "wb-4-220": {
+    "title": "外滩",
+    "reviewedRevisionId": 95308949,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95308949"
+  },
+  "wb-4-224": {
+    "title": "李济深故居",
+    "reviewedRevisionId": 94658002,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94658002"
+  },
+  "wb-4-231": {
+    "title": "經正書院",
+    "reviewedRevisionId": 93024447,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93024447"
+  },
+  "wb-5-48": {
+    "title": "寿州窑",
+    "reviewedRevisionId": 86783927,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783927"
+  },
+  "wb-5-63": {
+    "title": "即墨故城及六曲山墓群",
+    "reviewedRevisionId": 86554822,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86554822"
+  },
+  "wb-5-178": {
+    "title": "安丙墓",
+    "reviewedRevisionId": 93084985,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93084985"
+  },
+  "wb-5-197": {
+    "title": "孚王府",
+    "reviewedRevisionId": 89426106,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89426106"
+  },
+  "wb-5-208": {
+    "title": "临济寺",
+    "reviewedRevisionId": 91483188,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91483188",
+    "imageSubject": "澄灵塔"
+  },
+  "wb-5-244": {
+    "title": "大云院 (沁县)",
+    "reviewedRevisionId": 86096731,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86096731"
+  },
+  "wb-5-318": {
+    "title": "呈坎村",
+    "reviewedRevisionId": 92583502,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92583502"
+  },
+  "wb-5-321": {
+    "title": "西递村",
+    "reviewedRevisionId": 84987287,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84987287"
+  },
+  "wb-5-331": {
+    "title": "漳州府文庙",
+    "reviewedRevisionId": 86563529,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86563529",
+    "imageSubject": "大成殿"
+  },
+  "wb-5-334": {
+    "title": "流坑村",
+    "reviewedRevisionId": 95237497,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95237497"
+  },
+  "wb-5-427": {
+    "title": "党家村",
+    "reviewedRevisionId": 92622203,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92622203"
+  },
+  "wb-5-468": {
+    "title": "西狭颂摩崖石刻",
+    "reviewedRevisionId": 94224173,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94224173"
+  },
+  "wb-5-474": {
+    "title": "东交民巷",
+    "reviewedRevisionId": 91060020,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91060020"
+  },
+  "wb-5-477": {
+    "title": "天津劝业场",
+    "reviewedRevisionId": 94927524,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94927524"
+  },
+  "wb-5-489": {
+    "title": "龙山虞氏旧宅",
+    "reviewedRevisionId": 86545373,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86545373"
+  },
+  "wb-6-1": {
+    "title": "元大都城垣遗址公园",
+    "reviewedRevisionId": 92021237,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92021237"
+  },
+  "wb-6-53": {
+    "title": "龙潭山山城",
+    "reviewedRevisionId": 93308727,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93308727"
+  },
+  "wb-6-81": {
+    "title": "龍江船廠",
+    "reviewedRevisionId": 93146697,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93146697"
+  },
+  "wb-6-155": {
+    "title": "当阳峪窑",
+    "reviewedRevisionId": 88359990,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88359990"
+  },
+  "wb-6-161": {
+    "title": "鄧城",
+    "reviewedRevisionId": 87367919,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87367919"
+  },
+  "wb-6-200": {
+    "title": "法门寺",
+    "reviewedRevisionId": 94988753,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94988753"
+  },
+  "wb-6-222": {
+    "title": "滕公栅栏",
+    "reviewedRevisionId": 94516299,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94516299"
+  },
+  "wb-6-223": {
+    "title": "袁崇焕纪念馆",
+    "reviewedRevisionId": 92396194,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92396194"
+  },
+  "wb-6-237": {
+    "title": "昭君墓",
+    "reviewedRevisionId": 92583336,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92583336"
+  },
+  "wb-6-312": {
+    "title": "爨底下村",
+    "reviewedRevisionId": 91476188,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91476188"
+  },
+  "wb-6-435": {
+    "title": "二郎庙 (垣曲)",
+    "reviewedRevisionId": 88058121,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88058121"
+  },
+  "wb-6-438": {
+    "title": "辽州文庙",
+    "reviewedRevisionId": 84936699,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84936699",
+    "imageSubject": "大成殿"
+  },
+  "wb-6-484": {
+    "title": "日昇昌",
+    "reviewedRevisionId": 95149602,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95149602"
+  },
+  "wb-6-507": {
+    "title": "泰伯庙",
+    "reviewedRevisionId": 91758610,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91758610"
+  },
+  "wb-6-538": {
+    "title": "甘熙故居",
+    "reviewedRevisionId": 91061960,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91061960"
+  },
+  "wb-6-549": {
+    "title": "芙蓉村",
+    "reviewedRevisionId": 86856212,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856212"
+  },
+  "wb-6-589": {
+    "title": "漳浦文庙",
+    "reviewedRevisionId": 88666456,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88666456",
+    "imageSubject": "大成殿"
+  },
+  "wb-6-609": {
+    "title": "理坑村",
+    "reviewedRevisionId": 94964799,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94964799"
+  },
+  "wb-6-618": {
+    "title": "尼山孔庙",
+    "reviewedRevisionId": 92194624,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92194624"
+  },
+  "wb-6-620": {
+    "title": "蒲松龄故居",
+    "reviewedRevisionId": 87812859,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87812859"
+  },
+  "wb-6-646": {
+    "title": "香严寺 (淅川县)",
+    "reviewedRevisionId": 93486951,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93486951"
+  },
+  "wb-6-664": {
+    "title": "承恩寺 (襄阳市)",
+    "reviewedRevisionId": 85608709,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85608709"
+  },
+  "wb-6-670": {
+    "title": "上甘棠村",
+    "reviewedRevisionId": 84933242,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84933242"
+  },
+  "wb-6-673": {
+    "title": "南岳大庙",
+    "reviewedRevisionId": 93536490,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93536490"
+  },
+  "wb-6-681": {
+    "title": "六榕寺",
+    "reviewedRevisionId": 93276315,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93276315",
+    "imageSubject": "塔"
+  },
+  "wb-6-712": {
+    "title": "滎經開善寺",
+    "reviewedRevisionId": 93098080,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93098080",
+    "imageSubject": "正殿"
+  },
+  "wb-6-716": {
+    "title": "隘口石牌坊",
+    "reviewedRevisionId": 93092947,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93092947"
+  },
+  "wb-6-739": {
+    "title": "东西寺塔",
+    "reviewedRevisionId": 93806987,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93806987"
+  },
+  "wb-6-747": {
+    "title": "州城文庙",
+    "reviewedRevisionId": 93837188,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93837188"
+  },
+  "wb-6-749": {
+    "title": "丽江黑龙潭",
+    "reviewedRevisionId": 93899211,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93899211"
+  },
+  "wb-6-772": {
+    "title": "寿圣寺塔 (合阳)",
+    "reviewedRevisionId": 86856801,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856801"
+  },
+  "wb-6-821": {
+    "title": "天下第二泉",
+    "reviewedRevisionId": 94393430,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94393430"
+  },
+  "wb-6-855": {
+    "title": "博什瓦黑石刻",
+    "reviewedRevisionId": 93086463,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93086463"
+  },
+  "wb-6-856": {
+    "title": "荣县大佛",
+    "reviewedRevisionId": 92488122,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92488122"
+  },
+  "wb-6-878": {
+    "title": "西什库天主堂",
+    "reviewedRevisionId": 94784331,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94784331"
+  },
+  "wb-6-883": {
+    "title": "大栅栏",
+    "reviewedRevisionId": 94254803,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94254803"
+  },
+  "wb-6-885": {
+    "title": "中国国家图书馆古籍馆",
+    "reviewedRevisionId": 89264741,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89264741"
+  },
+  "wb-6-915": {
+    "title": "太平寺 (沈阳)",
+    "reviewedRevisionId": 93283942,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93283942"
+  },
+  "wb-6-926": {
+    "title": "马勒别墅",
+    "reviewedRevisionId": 94585056,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94585056"
+  },
+  "wb-6-930": {
+    "title": "中央体育场",
+    "reviewedRevisionId": 86301285,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86301285"
+  },
+  "wb-6-931": {
+    "title": "南京人民大会堂",
+    "reviewedRevisionId": 94028537,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94028537"
+  },
+  "wb-6-976": {
+    "title": "洪家楼教堂",
+    "reviewedRevisionId": 87275234,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87275234"
+  },
+  "wb-6-1015": {
+    "title": "粤海关大楼",
+    "reviewedRevisionId": 94144919,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94144919"
+  },
+  "wb-6-1060": {
+    "title": "和顺图书馆",
+    "reviewedRevisionId": 84927853,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84927853"
+  },
+  "wb-7-101": {
+    "title": "东京城",
+    "reviewedRevisionId": 93798650,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93798650"
+  },
+  "wb-7-112": {
+    "title": "赤柏松古城",
+    "reviewedRevisionId": 86475909,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86475909"
+  },
+  "wb-7-137": {
+    "title": "上海元代水闸遗址博物馆",
+    "reviewedRevisionId": 95166412,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95166412"
+  },
+  "wb-7-141": {
+    "title": "草鞋山遗址",
+    "reviewedRevisionId": 91706448,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91706448"
+  },
+  "wb-7-174": {
+    "title": "毗山遗址",
+    "reviewedRevisionId": 90999162,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90999162"
+  },
+  "wb-7-213": {
+    "title": "七里镇窑",
+    "reviewedRevisionId": 89281971,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89281971"
+  },
+  "wb-7-401": {
+    "title": "天生城",
+    "reviewedRevisionId": 93087944,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93087944"
+  },
+  "wb-7-482": {
+    "title": "虎台 (西宁市)",
+    "reviewedRevisionId": 91863509,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91863509"
+  },
+  "wb-7-558": {
+    "title": "东京陵",
+    "reviewedRevisionId": 86856272,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856272"
+  },
+  "wb-7-576": {
+    "title": "趙孟頫墓",
+    "reviewedRevisionId": 87095418,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87095418"
+  },
+  "wb-7-614": {
+    "title": "漢禪陵",
+    "reviewedRevisionId": 88423786,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88423786"
+  },
+  "wb-7-645": {
+    "title": "郝家坪戰國墓葬群",
+    "reviewedRevisionId": 86588417,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86588417"
+  },
+  "wb-7-673": {
+    "title": "成陵 (北周)",
+    "reviewedRevisionId": 90816345,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90816345"
+  },
+  "wb-7-715": {
+    "title": "蓟州白塔",
+    "reviewedRevisionId": 85946522,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85946522"
+  },
+  "wb-7-725": {
+    "title": "鹫峰寺",
+    "reviewedRevisionId": 94973989,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94973989",
+    "imageSubject": "塔"
+  },
+  "wb-7-739": {
+    "title": "蔚州关帝庙",
+    "reviewedRevisionId": 91604257,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91604257"
+  },
+  "wb-7-750": {
+    "title": "正定城",
+    "reviewedRevisionId": 86761724,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761724"
+  },
+  "wb-7-756": {
+    "title": "吕仙祠",
+    "reviewedRevisionId": 86569689,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86569689"
+  },
+  "wb-7-759": {
+    "title": "重泰寺",
+    "reviewedRevisionId": 91604254,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91604254"
+  },
+  "wb-7-772": {
+    "title": "圣庵寺塔",
+    "reviewedRevisionId": 86783111,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783111"
+  },
+  "wb-7-774": {
+    "title": "八龙寺塔",
+    "reviewedRevisionId": 86761662,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761662"
+  },
+  "wb-7-776": {
+    "title": "寿圣寺塔 (万荣)",
+    "reviewedRevisionId": 86786068,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86786068"
+  },
+  "wb-7-788": {
+    "title": "圆觉寺砖塔",
+    "reviewedRevisionId": 86543063,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86543063"
+  },
+  "wb-7-812": {
+    "title": "洪教院",
+    "reviewedRevisionId": 86761331,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761331"
+  },
+  "wb-7-816": {
+    "title": "崇教寺 (长治)",
+    "reviewedRevisionId": 94685069,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94685069"
+  },
+  "wb-7-821": {
+    "title": "高平万寿宫",
+    "reviewedRevisionId": 93026859,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93026859"
+  },
+  "wb-7-845": {
+    "title": "夏县文庙",
+    "reviewedRevisionId": 86783535,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783535",
+    "imageSubject": "大成殿"
+  },
+  "wb-7-846": {
+    "title": "永和文庙",
+    "reviewedRevisionId": 86783243,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783243",
+    "imageSubject": "大成殿"
+  },
+  "wb-7-859": {
+    "title": "妙觉寺 (太谷)",
+    "reviewedRevisionId": 86783453,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783453"
+  },
+  "wb-7-860": {
+    "title": "圆智寺",
+    "reviewedRevisionId": 86856231,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856231"
+  },
+  "wb-7-862": {
+    "title": "太原清真古寺",
+    "reviewedRevisionId": 88086731,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88086731"
+  },
+  "wb-7-872": {
+    "title": "南神庙",
+    "reviewedRevisionId": 86475345,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86475345"
+  },
+  "wb-7-874": {
+    "title": "罗睺寺",
+    "reviewedRevisionId": 93284119,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93284119"
+  },
+  "wb-7-882": {
+    "title": "崇善寺",
+    "reviewedRevisionId": 95339272,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95339272",
+    "imageSubject": "大悲殿"
+  },
+  "wb-7-894": {
+    "title": "白云寺 (平遥)",
+    "reviewedRevisionId": 85383055,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85383055"
+  },
+  "wb-7-895": {
+    "title": "柳林玉虚宫",
+    "reviewedRevisionId": 86761185,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761185"
+  },
+  "wb-7-897": {
+    "title": "太原府文庙",
+    "reviewedRevisionId": 94952005,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94952005"
+  },
+  "wb-7-908": {
+    "title": "隆福寺 (平遥县)",
+    "reviewedRevisionId": 94247165,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94247165"
+  },
+  "wb-7-912": {
+    "title": "席力圖召",
+    "reviewedRevisionId": 93285129,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93285129"
+  },
+  "wb-7-962": {
+    "title": "广教寺",
+    "reviewedRevisionId": 87199276,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87199276"
+  },
+  "wb-7-963": {
+    "title": "周王庙",
+    "reviewedRevisionId": 92120533,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92120533"
+  },
+  "wb-7-970": {
+    "title": "蘇州織造署遺址",
+    "reviewedRevisionId": 89795475,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89795475"
+  },
+  "wb-7-1025": {
+    "title": "新叶村",
+    "reviewedRevisionId": 86593794,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86593794"
+  },
+  "wb-7-1037": {
+    "title": "普济寺 (普陀山)",
+    "reviewedRevisionId": 91881754,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91881754"
+  },
+  "wb-7-1055": {
+    "title": "祗园寺",
+    "reviewedRevisionId": 88664623,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88664623"
+  },
+  "wb-7-1057": {
+    "title": "化城寺",
+    "reviewedRevisionId": 86555333,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555333"
+  },
+  "wb-7-1062": {
+    "title": "百岁宫",
+    "reviewedRevisionId": 86786805,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86786805"
+  },
+  "wb-7-1077": {
+    "title": "镇海卫城",
+    "reviewedRevisionId": 86761055,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761055"
+  },
+  "wb-7-1085": {
+    "title": "安溪清水岩",
+    "reviewedRevisionId": 92173776,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92173776"
+  },
+  "wb-7-1238": {
+    "title": "普光禅寺",
+    "reviewedRevisionId": 86763475,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86763475"
+  },
+  "wb-7-1273": {
+    "title": "五仙观",
+    "reviewedRevisionId": 95410924,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95410924"
+  },
+  "wb-7-1394": {
+    "title": "团山村",
+    "reviewedRevisionId": 95185602,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95185602"
+  },
+  "wb-7-1430": {
+    "title": "庆善寺",
+    "reviewedRevisionId": 90318645,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90318645",
+    "imageSubject": "大佛殿"
+  },
+  "wb-7-1467": {
+    "title": "文都寺",
+    "reviewedRevisionId": 93393563,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93393563"
+  },
+  "wb-7-1489": {
+    "title": "巴仑台黄庙",
+    "reviewedRevisionId": 95350853,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95350853"
+  },
+  "wb-7-1524": {
+    "title": "大佛寺 (新昌)",
+    "reviewedRevisionId": 92159938,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92159938",
+    "imageSubject": "像"
+  },
+  "wb-7-1596": {
+    "title": "观音阁 (永胜)",
+    "reviewedRevisionId": 94224366,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94224366",
+    "imageSubject": "像"
+  },
+  "wb-7-1612": {
+    "title": "西交民巷",
+    "reviewedRevisionId": 89297378,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89297378"
+  },
+  "wb-7-1613": {
+    "title": "濤貝勒府",
+    "reviewedRevisionId": 92949537,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92949537"
+  },
+  "wb-7-1618": {
+    "title": "中华圣经会北京分会会所",
+    "reviewedRevisionId": 86801041,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86801041"
+  },
+  "wb-7-1626": {
+    "title": "天津西站老站房",
+    "reviewedRevisionId": 95322836,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95322836"
+  },
+  "wb-7-1630": {
+    "title": "天津工商学院主楼",
+    "reviewedRevisionId": 89527762,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89527762"
+  },
+  "wb-7-1647": {
+    "title": "太原圣母无染原罪主教座堂",
+    "reviewedRevisionId": 92806752,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92806752"
+  },
+  "wb-7-1668": {
+    "title": "耶稣圣心主教座堂 (沈阳市)",
+    "reviewedRevisionId": 94543130,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94543130"
+  },
+  "wb-7-1678": {
+    "title": "吉林耶稣圣心堂",
+    "reviewedRevisionId": 92983117,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92983117"
+  },
+  "wb-7-1716": {
+    "title": "拉贝故居",
+    "reviewedRevisionId": 93905836,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93905836"
+  },
+  "wb-7-1730": {
+    "title": "浙江兴业银行杭州分行大楼",
+    "reviewedRevisionId": 90120993,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90120993"
+  },
+  "wb-7-1740": {
+    "title": "安庆耶稣圣心主教座堂",
+    "reviewedRevisionId": 86555590,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555590"
+  },
+  "wb-7-1779": {
+    "title": "兖州天主圣神主教座堂",
+    "reviewedRevisionId": 86964860,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86964860"
+  },
+  "wb-7-1781": {
+    "title": "胶济铁路济南车站旧址",
+    "reviewedRevisionId": 93107108,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93107108"
+  },
+  "wb-7-1831": {
+    "title": "新民学会成立会旧址",
+    "reviewedRevisionId": 95257817,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95257817"
+  },
+  "wb-7-1846": {
+    "title": "黄遵宪故居",
+    "reviewedRevisionId": 84930849,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84930849"
+  },
+  "wb-7-1868": {
+    "title": "紅三軍司令部舊址",
+    "reviewedRevisionId": 86004468,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86004468"
+  },
+  "wb-8-13": {
+    "title": "开化寺旧址及连理塔",
+    "reviewedRevisionId": 86786224,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86786224"
+  },
+  "wb-8-41": {
+    "title": "嘉兴子城",
+    "reviewedRevisionId": 86555627,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555627"
+  },
+  "wb-8-74": {
+    "title": "东镇庙",
+    "reviewedRevisionId": 86856251,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856251"
+  },
+  "wb-8-153": {
+    "title": "伏俟城",
+    "reviewedRevisionId": 86493287,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86493287"
+  },
+  "wb-8-213": {
+    "title": "寿圣寺 (新绛)",
+    "reviewedRevisionId": 86783446,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783446"
+  },
+  "wb-8-214": {
+    "title": "长子文庙",
+    "reviewedRevisionId": 84152543,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84152543",
+    "imageSubject": "大成殿"
+  },
+  "wb-8-222": {
+    "title": "清化寺",
+    "reviewedRevisionId": 82031377,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=82031377"
+  },
+  "wb-8-226": {
+    "title": "镇河楼",
+    "reviewedRevisionId": 84719248,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84719248"
+  },
+  "wb-8-246": {
+    "title": "寿圣寺 (阳城)",
+    "reviewedRevisionId": 85943836,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85943836"
+  },
+  "wb-8-254": {
+    "title": "朱氏牌楼",
+    "reviewedRevisionId": 82031631,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=82031631"
+  },
+  "wb-8-259": {
+    "title": "尊胜寺 (五台)",
+    "reviewedRevisionId": 86783628,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783628"
+  },
+  "wb-8-263": {
+    "title": "永安桥 (沈阳)",
+    "reviewedRevisionId": 85885382,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85885382"
+  },
+  "wb-8-272": {
+    "title": "灵芝塔",
+    "reviewedRevisionId": 86856834,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856834"
+  },
+  "wb-8-275": {
+    "title": "灵鹫寺石塔",
+    "reviewedRevisionId": 86786657,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86786657"
+  },
+  "wb-8-276": {
+    "title": "大善塔",
+    "reviewedRevisionId": 90817766,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90817766"
+  },
+  "wb-8-288": {
+    "title": "陈大宗祠",
+    "reviewedRevisionId": 86783546,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783546"
+  },
+  "wb-8-329": {
+    "title": "土坑港市遗址",
+    "reviewedRevisionId": 94663498,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94663498"
+  },
+  "wb-8-371": {
+    "title": "龙亭",
+    "reviewedRevisionId": 94314184,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94314184"
+  },
+  "wb-8-404": {
+    "title": "花萼楼",
+    "reviewedRevisionId": 91914618,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91914618"
+  },
+  "wb-8-415": {
+    "title": "左江斜塔",
+    "reviewedRevisionId": 93148485,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93148485"
+  },
+  "wb-8-423": {
+    "title": "金仙寺",
+    "reviewedRevisionId": 86458626,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86458626"
+  },
+  "wb-8-435": {
+    "title": "惠远寺",
+    "reviewedRevisionId": 93283642,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93283642"
+  },
+  "wb-8-493": {
+    "title": "魁星岩西方三圣造像",
+    "reviewedRevisionId": 86558934,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86558934"
+  },
+  "wb-8-502": {
+    "title": "宜賓流杯池及石刻題記",
+    "reviewedRevisionId": 94224440,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94224440"
+  },
+  "wb-8-524": {
+    "title": "思源堂",
+    "reviewedRevisionId": 88033677,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88033677"
+  },
+  "wb-8-527": {
+    "title": "左权墓",
+    "reviewedRevisionId": 86760985,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86760985"
+  },
+  "wb-8-529": {
+    "title": "督军府旧址",
+    "reviewedRevisionId": 95350182,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95350182"
+  },
+  "wb-8-531": {
+    "title": "金岗库村晋察冀军区司令部旧址",
+    "reviewedRevisionId": 85583584,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85583584"
+  },
+  "wb-8-549": {
+    "title": "红石砬子抗日根据地",
+    "reviewedRevisionId": 93353181,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93353181"
+  },
+  "wb-8-552": {
+    "title": "丰满万人坑",
+    "reviewedRevisionId": 86761452,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761452"
+  },
+  "wb-8-553": {
+    "title": "石人血泪山",
+    "reviewedRevisionId": 86761310,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761310"
+  },
+  "wb-8-555": {
+    "title": "建國忠靈廟",
+    "reviewedRevisionId": 93442201,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93442201"
+  },
+  "wb-8-575": {
+    "title": "南京利济巷慰安所旧址陈列馆",
+    "reviewedRevisionId": 93097930,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93097930"
+  },
+  "wb-8-578": {
+    "title": "盱眙新四军军部旧址",
+    "reviewedRevisionId": 93353335,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93353335"
+  },
+  "wb-8-582": {
+    "title": "求是書院",
+    "reviewedRevisionId": 90681303,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90681303"
+  },
+  "wb-8-592": {
+    "title": "江厦潮汐电站",
+    "reviewedRevisionId": 89181913,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89181913"
+  },
+  "wb-8-595": {
+    "title": "芜湖海关旧址",
+    "reviewedRevisionId": 93107163,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93107163"
+  },
+  "wb-8-601": {
+    "title": "佛子岭水库",
+    "reviewedRevisionId": 93638530,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93638530"
+  },
+  "wb-8-628": {
+    "title": "乐道院",
+    "reviewedRevisionId": 93370435,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93370435"
+  },
+  "wb-8-631": {
+    "title": "万竹园 (济南)",
+    "reviewedRevisionId": 86801026,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86801026"
+  },
+  "wb-8-670": {
+    "title": "中英街",
+    "reviewedRevisionId": 95159133,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95159133"
+  },
+  "wb-8-694": {
+    "title": "张自忠墓",
+    "reviewedRevisionId": 94299888,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94299888"
+  },
+  "wb-8-697": {
+    "title": "雅安私立明德初級中學校",
+    "reviewedRevisionId": 93099200,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099200"
+  },
+  "wb-8-702": {
+    "title": "大渡河懸索橋",
+    "reviewedRevisionId": 93099201,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099201"
+  },
+  "wb-8-715": {
+    "title": "会泽院",
+    "reviewedRevisionId": 86783126,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783126"
+  },
+  "wb-8-717": {
+    "title": "卢汉公馆",
+    "reviewedRevisionId": 94335833,
+    "reviewedReason": "复核百科重定向、文物名称与同一地点；引用版本已锁定",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94335833"
+  },
+  "wb-1-159": {
+    "title": "上京临潢府",
+    "reviewedRevisionId": 93493700,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93493700"
+  },
+  "wb-1-160": {
+    "title": "大定府 (辽朝)",
+    "reviewedRevisionId": 95376391,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95376391"
+  },
+  "wb-2-25": {
+    "title": "紫霄宮",
+    "reviewedRevisionId": 92629650,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92629650"
+  },
+  "wb-2-46": {
+    "title": "元谋人",
+    "reviewedRevisionId": 94054368,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94054368"
+  },
+  "wb-2-47": {
+    "title": "蓝田人",
+    "reviewedRevisionId": 90744468,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90744468"
+  },
+  "wb-2-55": {
+    "title": "明中都",
+    "reviewedRevisionId": 93901534,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93901534"
+  },
+  "wb-3-5": {
+    "title": "太平天国侍王府",
+    "reviewedRevisionId": 94954588,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94954588"
+  },
+  "wb-3-79": {
+    "title": "胡慶餘堂",
+    "reviewedRevisionId": 95065436,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95065436"
+  },
+  "wb-3-100": {
+    "title": "樊敏阙",
+    "reviewedRevisionId": 86458940,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86458940"
+  },
+  "wb-3-163": {
+    "title": "中美合作所集中營舊址",
+    "reviewedRevisionId": 94246101,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94246101"
+  },
+  "wb-3-172": {
+    "title": "白鹤梁",
+    "reviewedRevisionId": 95396885,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95396885"
+  },
+  "wb-4-3": {
+    "title": "鸡公山遗址",
+    "reviewedRevisionId": 86856946,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856946"
+  },
+  "wb-4-32": {
+    "title": "魏长城遗址",
+    "reviewedRevisionId": 93069694,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93069694"
+  },
+  "wb-4-42": {
+    "title": "洪州窑",
+    "reviewedRevisionId": 94269535,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94269535"
+  },
+  "wb-4-62": {
+    "title": "帽儿山墓地",
+    "reviewedRevisionId": 95384389,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95384389"
+  },
+  "wb-4-143": {
+    "title": "羅東舒祠",
+    "reviewedRevisionId": 84928918,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84928918"
+  },
+  "wb-4-188": {
+    "title": "伊犁将军府",
+    "reviewedRevisionId": 89524109,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89524109"
+  },
+  "wb-4-218": {
+    "title": "硇洲灯塔",
+    "reviewedRevisionId": 94700402,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94700402"
+  },
+  "wb-5-22": {
+    "title": "應昌城",
+    "reviewedRevisionId": 91291344,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91291344"
+  },
+  "wb-5-53": {
+    "title": "建窑",
+    "reviewedRevisionId": 86564885,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86564885"
+  },
+  "wb-5-78": {
+    "title": "鹿邑太清宫",
+    "reviewedRevisionId": 95427193,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95427193"
+  },
+  "wb-5-113": {
+    "title": "康家遗址",
+    "reviewedRevisionId": 86786757,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86786757"
+  },
+  "wb-5-130": {
+    "title": "圆沙古城",
+    "reviewedRevisionId": 94634925,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94634925"
+  },
+  "wb-5-132": {
+    "title": "孔雀河烽燧群",
+    "reviewedRevisionId": 93097586,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93097586"
+  },
+  "wb-5-135": {
+    "title": "唐王城",
+    "reviewedRevisionId": 92350630,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92350630"
+  },
+  "wb-5-146": {
+    "title": "赵王陵",
+    "reviewedRevisionId": 90853622,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90853622"
+  },
+  "wb-5-170": {
+    "title": "汉鲁王墓",
+    "reviewedRevisionId": 88494272,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88494272"
+  },
+  "wb-5-188": {
+    "title": "三海子古墓",
+    "reviewedRevisionId": 93760411,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93760411"
+  },
+  "wb-5-190": {
+    "title": "察吾乎古墓群",
+    "reviewedRevisionId": 88748706,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88748706"
+  },
+  "wb-5-367": {
+    "title": "张谷英村",
+    "reviewedRevisionId": 92282721,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92282721"
+  },
+  "wb-5-458": {
+    "title": "大伾山摩崖大佛及石刻",
+    "reviewedRevisionId": 94812237,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94812237"
+  },
+  "wb-5-481": {
+    "title": "松基三井",
+    "reviewedRevisionId": 90841653,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90841653"
+  },
+  "wb-6-32": {
+    "title": "秦直道",
+    "reviewedRevisionId": 92410409,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92410409"
+  },
+  "wb-6-104": {
+    "title": "沂源人",
+    "reviewedRevisionId": 95409216,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95409216"
+  },
+  "wb-6-174": {
+    "title": "甘泉岛遗址",
+    "reviewedRevisionId": 84933026,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84933026"
+  },
+  "wb-6-177": {
+    "title": "营盘山和姜维城遗址",
+    "reviewedRevisionId": 93085687,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93085687"
+  },
+  "wb-6-188": {
+    "title": "𱛓𭖂图山城址",
+    "reviewedRevisionId": 93156636,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93156636"
+  },
+  "wb-6-218": {
+    "title": "丹丹乌里克遗址",
+    "reviewedRevisionId": 94595843,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94595843"
+  },
+  "wb-6-489": {
+    "title": "绥远城",
+    "reviewedRevisionId": 95373043,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95373043"
+  },
+  "wb-6-491": {
+    "title": "定远营",
+    "reviewedRevisionId": 86856284,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86856284"
+  },
+  "wb-6-499": {
+    "title": "广宁城",
+    "reviewedRevisionId": 88086495,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88086495"
+  },
+  "wb-6-503": {
+    "title": "牡丹江边墙",
+    "reviewedRevisionId": 92993521,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92993521"
+  },
+  "wb-6-539": {
+    "title": "天宁寺 (宁波)",
+    "reviewedRevisionId": 87802003,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87802003"
+  },
+  "wb-6-540": {
+    "title": "杭宣古道",
+    "reviewedRevisionId": 84932699,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84932699"
+  },
+  "wb-6-610": {
+    "title": "梅關古道",
+    "reviewedRevisionId": 92314952,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92314952"
+  },
+  "wb-6-622": {
+    "title": "三苏墓",
+    "reviewedRevisionId": 93684377,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93684377"
+  },
+  "wb-6-666": {
+    "title": "武当山古建筑群",
+    "reviewedRevisionId": 93486931,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93486931"
+  },
+  "wb-6-700": {
+    "title": "聖德寺白塔",
+    "reviewedRevisionId": 91071802,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91071802"
+  },
+  "wb-6-715": {
+    "title": "松格嘛呢石經城和巴格嘛呢石經牆",
+    "reviewedRevisionId": 93086170,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93086170"
+  },
+  "wb-6-765": {
+    "title": "敏珠林寺",
+    "reviewedRevisionId": 94398635,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94398635"
+  },
+  "wb-6-805": {
+    "title": "达那寺",
+    "reviewedRevisionId": 93286684,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93286684"
+  },
+  "wb-6-818": {
+    "title": "阴山岩画",
+    "reviewedRevisionId": 95006926,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95006926"
+  },
+  "wb-6-923": {
+    "title": "中东铁路建筑群",
+    "reviewedRevisionId": 92263374,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92263374"
+  },
+  "wb-6-987": {
+    "title": "八路军驻洛办事处纪念馆",
+    "reviewedRevisionId": 94117246,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94117246"
+  },
+  "wb-6-1042": {
+    "title": "阿壩紅軍長征遺跡",
+    "reviewedRevisionId": 93085925,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93085925"
+  },
+  "wb-6-1057": {
+    "title": "鸡街站",
+    "reviewedRevisionId": 93387001,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93387001"
+  },
+  "wb-7-31": {
+    "title": "隆化土城子城址",
+    "reviewedRevisionId": 86554955,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86554955"
+  },
+  "wb-7-72": {
+    "title": "韩州城遗址",
+    "reviewedRevisionId": 95376779,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95376779"
+  },
+  "wb-7-99": {
+    "title": "冮官窑",
+    "reviewedRevisionId": 94152058,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94152058"
+  },
+  "wb-7-119": {
+    "title": "前进古城",
+    "reviewedRevisionId": 86761319,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761319"
+  },
+  "wb-7-131": {
+    "title": "墨尔根至漠河古驿站驿道",
+    "reviewedRevisionId": 90815251,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90815251"
+  },
+  "wb-7-369": {
+    "title": "罗城遗址",
+    "reviewedRevisionId": 89281961,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89281961"
+  },
+  "wb-7-385": {
+    "title": "茶陵城墙",
+    "reviewedRevisionId": 93564551,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93564551"
+  },
+  "wb-7-409": {
+    "title": "神臂城",
+    "reviewedRevisionId": 93099133,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099133"
+  },
+  "wb-7-472": {
+    "title": "砂锅梁遗址",
+    "reviewedRevisionId": 86555174,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555174"
+  },
+  "wb-7-481": {
+    "title": "塔里他里哈遗址",
+    "reviewedRevisionId": 86555184,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555184"
+  },
+  "wb-7-496": {
+    "title": "营盘古城及古墓群",
+    "reviewedRevisionId": 89547666,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89547666"
+  },
+  "wb-7-509": {
+    "title": "古代吐鲁番盆地军事防御遗址",
+    "reviewedRevisionId": 94390918,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94390918"
+  },
+  "wb-7-510": {
+    "title": "哈密境內烽燧遺址",
+    "reviewedRevisionId": 93097339,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93097339"
+  },
+  "wb-7-565": {
+    "title": "烟墩山墓地",
+    "reviewedRevisionId": 86783371,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783371"
+  },
+  "wb-7-615": {
+    "title": "高平陵",
+    "reviewedRevisionId": 87803115,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87803115"
+  },
+  "wb-7-618": {
+    "title": "二程墓",
+    "reviewedRevisionId": 95427778,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95427778"
+  },
+  "wb-7-693": {
+    "title": "小河墓地",
+    "reviewedRevisionId": 95270218,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95270218"
+  },
+  "wb-7-707": {
+    "title": "北京城墙",
+    "reviewedRevisionId": 89220639,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89220639"
+  },
+  "wb-7-858": {
+    "title": "介休城隍庙",
+    "reviewedRevisionId": 84930539,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84930539"
+  },
+  "wb-7-864": {
+    "title": "悬泉寺",
+    "reviewedRevisionId": 85381936,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85381936"
+  },
+  "wb-7-868": {
+    "title": "皇城相府",
+    "reviewedRevisionId": 92141483,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92141483"
+  },
+  "wb-7-880": {
+    "title": "云峰寺 (介休)",
+    "reviewedRevisionId": 86761179,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761179",
+    "imageSubject": "石佛殿"
+  },
+  "wb-7-1058": {
+    "title": "肉身寶殿",
+    "reviewedRevisionId": 86555335,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555335"
+  },
+  "wb-7-1132": {
+    "title": "名分堂戏台",
+    "reviewedRevisionId": 86475507,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86475507"
+  },
+  "wb-7-1245": {
+    "title": "澧州城墙",
+    "reviewedRevisionId": 86475577,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86475577"
+  },
+  "wb-7-1272": {
+    "title": "父子进士牌坊",
+    "reviewedRevisionId": 84930890,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84930890"
+  },
+  "wb-7-1284": {
+    "title": "永宁州城",
+    "reviewedRevisionId": 89181168,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=89181168"
+  },
+  "wb-7-1306": {
+    "title": "镇南塔",
+    "reviewedRevisionId": 93099172,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099172"
+  },
+  "wb-7-1342": {
+    "title": "沃日土司官寨碉及經樓",
+    "reviewedRevisionId": 93099188,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099188"
+  },
+  "wb-7-1522": {
+    "title": "仙居古越人岩画群",
+    "reviewedRevisionId": 91591256,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91591256"
+  },
+  "wb-7-1533": {
+    "title": "黄山摩崖石刻",
+    "reviewedRevisionId": 88057497,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88057497"
+  },
+  "wb-7-1594": {
+    "title": "金沙江岩画",
+    "reviewedRevisionId": 93887360,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93887360"
+  },
+  "wb-7-1600": {
+    "title": "大黑沟岩画",
+    "reviewedRevisionId": 86555557,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555557"
+  },
+  "wb-7-1794": {
+    "title": "天主教河南总修院",
+    "reviewedRevisionId": 87911779,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=87911779"
+  },
+  "wb-7-1833": {
+    "title": "湖南大学早期建筑群",
+    "reviewedRevisionId": 93836040,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93836040"
+  },
+  "wb-7-1901": {
+    "title": "熊庆来故居",
+    "reviewedRevisionId": 90843411,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90843411"
+  },
+  "wb-8-1": {
+    "title": "上宅文化遗址",
+    "reviewedRevisionId": 93765751,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93765751"
+  },
+  "wb-8-11": {
+    "title": "解梁古城",
+    "reviewedRevisionId": 90843928,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90843928"
+  },
+  "wb-8-28": {
+    "title": "霸王朝山城",
+    "reviewedRevisionId": 86476730,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86476730"
+  },
+  "wb-8-55": {
+    "title": "东溪窑遗址",
+    "reviewedRevisionId": 86761458,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86761458"
+  },
+  "wb-8-63": {
+    "title": "汶阳遗址",
+    "reviewedRevisionId": 86783671,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783671"
+  },
+  "wb-8-108": {
+    "title": "岳州窑",
+    "reviewedRevisionId": 95335734,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95335734"
+  },
+  "wb-8-114": {
+    "title": "狮雄山建筑遗址",
+    "reviewedRevisionId": 90831738,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90831738"
+  },
+  "wb-8-117": {
+    "title": "西樵山采石场",
+    "reviewedRevisionId": 95427556,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95427556"
+  },
+  "wb-8-122": {
+    "title": "金银岛沉船",
+    "reviewedRevisionId": 95058907,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95058907"
+  },
+  "wb-8-124": {
+    "title": "珊瑚岛沉船",
+    "reviewedRevisionId": 95058922,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95058922"
+  },
+  "wb-8-130": {
+    "title": "綿竹城遺址",
+    "reviewedRevisionId": 93099140,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099140"
+  },
+  "wb-8-190": {
+    "title": "故如甲木墓地",
+    "reviewedRevisionId": 84933996,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=84933996"
+  },
+  "wb-8-250": {
+    "title": "南山寺 (五台山)",
+    "reviewedRevisionId": 86555651,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86555651"
+  },
+  "wb-8-297": {
+    "title": "广济寺 (芜湖)",
+    "reviewedRevisionId": 85375194,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=85375194",
+    "imageSubject": "塔"
+  },
+  "wb-8-369": {
+    "title": "遇仙观",
+    "reviewedRevisionId": 95379150,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95379150"
+  },
+  "wb-8-410": {
+    "title": "冲虚观",
+    "reviewedRevisionId": 95037091,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95037091"
+  },
+  "wb-8-424": {
+    "title": "永安廟",
+    "reviewedRevisionId": 93099148,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099148"
+  },
+  "wb-8-431": {
+    "title": "觀音庵",
+    "reviewedRevisionId": 93099154,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93099154"
+  },
+  "wb-8-567": {
+    "title": "上海公共租界工部局宰牲场",
+    "reviewedRevisionId": 91953942,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91953942"
+  },
+  "wb-8-577": {
+    "title": "盐阜区抗日阵亡将士纪念塔",
+    "reviewedRevisionId": 86783442,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=86783442"
+  },
+  "wb-8-581": {
+    "title": "英国驻温州领事馆",
+    "reviewedRevisionId": 91635742,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91635742"
+  },
+  "wb-8-610": {
+    "title": "永春福兴堂",
+    "reviewedRevisionId": 92992475,
+    "reviewedReason": "复核名称、所在地与对应遗址；原名录行政地址及参考点位不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92992475"
+  },
+  "wb-1-58": {
+    "title": "赵州桥",
+    "reviewedRevisionId": 95358820,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=95358820"
+  },
+  "wb-1-60": {
+    "title": "永通桥",
+    "reviewedRevisionId": 93895698,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93895698"
+  },
+  "wb-1-69": {
+    "title": "开宝寺琉璃塔",
+    "reviewedRevisionId": 93589540,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=93589540"
+  },
+  "wb-1-170": {
+    "title": "唐昭陵",
+    "reviewedRevisionId": 88825076,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=88825076"
+  },
+  "wb-1-103": {
+    "title": "嘉峪关",
+    "reviewedRevisionId": 90815807,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=90815807"
+  },
+  "wb-1-13": {
+    "title": "南昌八一起义纪念馆",
+    "reviewedRevisionId": 92175120,
+    "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92175120"
+  }
+}
