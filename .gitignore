@@ -1,0 +1,7 @@
+*.tar.gz
+*.tar
+preview.png
+map-preview.png
+sources/great-wall-original.jpg
+__pycache__/
+

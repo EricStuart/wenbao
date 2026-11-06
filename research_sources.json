@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-11-06",
+  "latest_published_batch": 8,
+  "ninth_batch_status": "未检索到第九批全国名录正式公布通知；2026年10月省级政府规划仍表述为申报遴选。",
+  "ninth_batch_status_source": "https://www.ln.gov.cn/web/zwgkx/zfwj/szfbgtwj/2026n/2026101913500815391/index.shtml",
+  "count_reconciliation": "Atlas 原始5056条含第五批3项增补，缺第六批增补安江农校纪念园、第七批增补八宝山革命公墓、由南通博物苑单列的大生纱厂；其冯焕阙和沈府君阙应归为一个渠县汉阙。5056+3-1=5058。历史批次原始发布量不能直接当现行独立单位数。",
+  "limitations": "此次针对已发现差额进行了有据修正，并非对所有历次名称变更、合并子项及现行保护范围的完整审计。历史名称与现行名称需保持别名。合并子项不应重复增加独立单位数。",
+  "additions": [
+    {
+      "name_zh": "安江农校纪念园",
+      "batch": 6,
+      "seq": null,
+      "category": "近现代重要史迹及代表性建筑",
+      "era": "1939～1986年",
+      "address": "湖南省怀化市洪江市安江镇",
+      "region_id": "430000",
+      "date": "2009-08-20",
+      "document_number": "国函〔2009〕97号",
+      "source": "https://wwj.hunan.gov.cn/wwj/c100314/201406/t20140613_10483053.html",
+      "additional_sources": ["https://www.hjs.gov.cn/hjs/c123371/201603/7f78089850cb49c4bfdf4d100379a9a5.shtml"],
+      "note": "湖南省文物局名录直接确认名称、年代、地址及第六批；洪江市政府确认2009年8月20日特批。文号来自怀化年鉴2010的转引，未取得该国务院通知原件。"
+    },
+    {
+      "name_zh": "大生纱厂",
+      "batch": 6,
+      "seq": null,
+      "category": "近现代重要史迹及代表性建筑",
+      "era": "1895年",
+      "address": "江苏省南通市",
+      "region_id": "320000",
+      "date": "2013-03-05",
+      "original_listing_date": "2006-05-25",
+      "source": "https://www.nantong.gov.cn/ntsrmzf/whyc/content/6eb105ed-0a58-48f2-81c7-e8f21c70ef2b.html",
+      "additional_sources": ["https://zwgk.mct.gov.cn/zfxxgkml/qt/202012/t20201206_918486.html", "https://zh.wikisource.org/zh-hans/国务院关于核定并公布第七批全国重点文物保护单位的通知"],
+      "note": "第六批2006年作为南通博物苑扩展项目入选；第七批2013年名单将大生第三纺织公司旧址与之合并并单列为大生纱厂，归第六批。日期为该第七批通知落款日期。具体区县及分散子项需要分点记录，不能仅以单点代表完整保护范围。"
+    },
+    {
+      "name_zh": "北京市八宝山革命公墓",
+      "aliases": ["八宝山革命公墓"],
+      "batch": 7,
+      "seq": null,
+      "category": "近现代重要史迹及代表性建筑",
+      "era": "近现代",
+      "address": "北京市石景山区八宝山街道石景山路9号",
+      "region_id": "110000",
+      "date": "2014-04-25",
+      "document_number": "国函〔2014〕49号",
+      "source": "https://wwj.beijing.gov.cn/bjww/362771/362779/dqpqgzdwwbhdw/1695643/index.html",
+      "official_notice_url": "https://www.ncha.gov.cn/module/download/downfile.jsp?classid=0&filename=1406261623387165262.pdf",
+      "notice_transcription": "https://zh.wikisource.org/wiki/国务院关于增补北京市八宝山革命公墓为第七批全国重点文物保护单位的通知",
+      "note": "北京市文物局直接确认名称、时代、第七批、完整地址；国家文物局原PDF当前请求超时，日期文号由原件的维基文库转录核验。"
+    }
+  ],
+  "merges": [
+    {
+      "from_names": ["冯焕阙", "沈府君阙"],
+      "additional_components": ["赵家村汉阙", "王家坪汉阙", "蒲家湾汉阙"],
+      "name_zh": "渠县汉阙",
+      "batch": 1,
+      "seq": null,
+      "category": "古建筑",
+      "era": "东汉",
+      "address": "四川省达州市渠县",
+      "region_id": "510000",
+      "date": "2001-06-25",
+      "document_number": "国发〔2001〕25号",
+      "source": "https://www.gov.cn/gongbao/content/2001/content_60955.htm",
+      "readable_official_copy": "https://zjdy.zjdafw.gov.cn/zjzb/ZJZB-2002-21-10.pdf",
+      "note": "第五批合并项目第13项明确赵家村汉阙、王家坪汉阙、蒲家湾汉阙与冯焕阙、沈府君阙合并，名称为渠县汉阙。保留第一批原始记录作为别名及历史记录；现行单位总数净减1。"
+    }
+  ],
+  "batches": [
+    {"batch":1,"date":"1961-03-04","count":180,"merged":0,"source":"https://www.gov.cn/gongbao/shuju/1961/gwyb196104.pdf"},
+    {"batch":2,"date":"1982-02-23","count":62,"merged":0,"source":"https://www.gov.cn/gongbao/shuju/1982/gwyb198207.pdf"},
+    {"batch":3,"date":"1988-01-13","count":258,"merged":0,"source":"https://www.gov.cn/gongbao/shuju/1988/gwyb198804.pdf"},
+    {"batch":4,"date":"1996-11-20","count":250,"merged":12,"source":"https://www.gov.cn/gongbao/shuju/1996/gwyb199636.pdf"},
+    {"batch":5,"date":"2001-06-25","count":518,"merged":23,"source":"https://www.gov.cn/gongbao/content/2001/content_60955.htm","readable_copy":"https://file.henan.gov.cn/4500000001/2020-04-29/1588153646348UsXEu53R.pdf"},
+    {"batch":6,"date":"2006-05-25","count":1080,"merged":106,"source":"https://zwgk.mct.gov.cn/zfxxgkml/qt/202012/t20201206_918486.html"},
+    {"batch":7,"date":"2013-03-05","web_date":"2013-05-03","count":1943,"merged":47,"source":"https://www.gov.cn/guoqing/2014-07/21/dqpqgzdwwbhdwmd.pdf","readable_notice_copy":"https://nrp.jinan.gov.cn/attach/0/3df13bf4d8ab49e08d4003e412e02829.pdf","note":"readable_notice_copy只有20页，能验证通知，不是全国完整名录附件。"},
+    {"batch":8,"date":"2019-10-07","web_date":"2019-10-16","count":762,"merged":50,"source":"https://www.forestry.gov.cn/main/4815/20191016/173000319923859.html"}
+  ],
+  "featured_descriptions": [
+    {"name":"故宫","description":"北京故宫是明清两朝的皇宫。宫殿、院落与中轴线共同呈现中国传统宫城的空间秩序；1925年，故宫博物院在紫禁城的基础上成立。","source":"https://www.dpm.org.cn/about/about_view.html"},
+    {"name":"云冈石窟","description":"云冈石窟的主体开凿于北魏时期，是佛教石窟艺术的重要遗存。崖壁上的洞窟与造像，保存着公元五至六世纪的营造与雕刻艺术。","source":"https://ygx.sxu.edu.cn/portals/shuYuCiBiao"},
+    {"name":"莫高窟","description":"莫高窟位于敦煌鸣沙山东麓，洞窟沿崖壁分布，以壁画和彩塑见长。跨越多个时代的艺术遗存，记录了丝绸之路上的文化交流。","source":"https://www.dha.ac.cn/info/1425/3659.htm"},
+    {"name":"佛光寺","description":"佛光寺东大殿建于唐大中十一年（857年）。唐代木构、塑像、壁画与题记相互印证，是认识唐代建筑与艺术的珍贵实物。","source":"https://mzj.sh.gov.cn/lnb-wsws/20250407/e9b9c747eac44b3f9d02cb68402d1684.html"}
+  ],
+  "fifth_batch_supplements": [
+    {"name_zh":"里耶古城遗址","date":"2002-11-22","source":"https://www.gov.cn/gongbao/content/2003/content_62205.htm"},
+    {"name_zh":"阿尔寨石窟","date":"2003-03-02","source":"https://www.gov.cn/gongbao/content/2003/content_62019.htm"},
+    {"name_zh":"焦裕禄烈士墓","date":"2003-04-03","source":"https://www.gov.cn/gongbao/content/2003/content_62080.htm"}
+  ]
+}
