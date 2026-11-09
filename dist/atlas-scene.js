@@ -74,16 +74,15 @@ function addTriangle(a, b, c, positions) {
   addTriangle(center,b,c,positions);
 }
 
-function addRim(a, b, view, walls, outlines) {
+function addRim(a, b, view, walls) {
   if (a.distanceToSquared(b) >= maxEdgeSquared) {
     const center = a.clone().lerp(b,.5);
-    addRim(a,center,view,walls,outlines);
-    addRim(center,b,view,walls,outlines);
+    addRim(a,center,view,walls);
+    addRim(center,b,view,walls);
     return;
   }
   const h1=terrain(a.x,-a.y,view), h2=terrain(b.x,-b.y,view);
   walls.push(a.x,h1,-a.y,b.x,h2,-b.y,a.x,-1.55,-a.y, a.x,-1.55,-a.y,b.x,h2,-b.y,b.x,-1.55,-b.y);
-  outlines.push(a.x,h1+.035,-a.y,b.x,h2+.035,-b.y);
 }
 
 function buffer(positions, colors, normals=false) {
@@ -95,7 +94,7 @@ function buffer(positions, colors, normals=false) {
 }
 
 function makeLand(feature, view) {
-  const surface = [], walls = [], outlines = [], colors = [];
+  const surface = [], walls = [], colors = [];
   const low = new THREE.Color('#38685d');
   const high = new THREE.Color('#a1ac7a');
   const shade = new THREE.Color();
@@ -115,7 +114,7 @@ function makeLand(feature, view) {
     }
     for (const ring of [outer,...holes]) {
       for (let i=0;i<ring.length;i++) {
-        addRim(ring[i],ring[(i+1)%ring.length],view,walls,outlines);
+        addRim(ring[i],ring[(i+1)%ring.length],view,walls);
       }
     }
   }
@@ -127,12 +126,9 @@ function makeLand(feature, view) {
   const rim = new THREE.Mesh(buffer(walls,null,true),new THREE.MeshStandardMaterial({
     color:'#264940', roughness:.85, metalness:.24, side:THREE.DoubleSide
   }));
-  const outline = new THREE.LineSegments(buffer(outlines),new THREE.LineBasicMaterial({
-    color:'#b6c4a9', transparent:true, opacity:.28
-  }));
   const group = new THREE.Group();
-  group.add(rim,roof,outline);
-  return {group,roof,outline};
+  group.add(rim,roof);
+  return {group,roof};
 }
 
 function disposeChildren(group) {
@@ -146,17 +142,7 @@ function disposeChildren(group) {
   }
 }
 
-function ring(radius, color, opacity, y) {
-  const points = Array.from({length:192},(_,i)=>{
-    const angle=i*Math.PI/96;
-    return new THREE.Vector3(Math.cos(angle)*radius,y,Math.sin(angle)*radius);
-  });
-  return new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color,transparent:true,opacity}));
-}
-
 function stageDecoration() {
-  const group = new THREE.Group();
-  group.add(ring(60,'#bda57c',.20,-2.45));
   const surface = new THREE.Mesh(new THREE.PlaneGeometry(152,152),new THREE.ShaderMaterial({
     transparent:true, depthWrite:false,
     vertexShader:'varying vec2 vUv; void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
@@ -164,8 +150,7 @@ function stageDecoration() {
   }));
   surface.rotation.x=-Math.PI/2;
   surface.position.y=-2.6;
-  group.add(surface);
-  return group;
+  return surface;
 }
 
 function dustField() {
@@ -188,21 +173,9 @@ function dustField() {
 }
 
 function signal() {
-  const group = new THREE.Group();
-  const beam=new THREE.Mesh(new THREE.CylinderGeometry(.025,.13,4.3,10),new THREE.MeshBasicMaterial({
-    color:'#ffb27a',transparent:true,opacity:.65,depthWrite:false,blending:THREE.AdditiveBlending
-  }));
-  beam.position.y=2.15;
-  group.add(beam);
-  const ground=ring(1.15,'#f9ad78',.75,.10);
-  const pulse=ring(1.15,'#f9ad78',.45,.14);
-  group.add(ground,pulse);
-  const jewel=new THREE.Mesh(new THREE.OctahedronGeometry(.42),new THREE.MeshStandardMaterial({
+  return new THREE.Mesh(new THREE.OctahedronGeometry(.42),new THREE.MeshStandardMaterial({
     color:'#f2b378',emissive:'#b54c1b',emissiveIntensity:1.3,metalness:.35,roughness:.28
   }));
-  jewel.position.y=4.3;
-  group.add(jewel);
-  return {group,pulse,jewel};
 }
 
 export class AtlasScene {
@@ -246,8 +219,8 @@ export class AtlasScene {
     this.pins=new THREE.Group();
     this.scene.add(this.land,this.pins);
     this.signal=signal();
-    this.signal.group.visible=false;
-    this.scene.add(this.signal.group);
+    this.signal.visible=false;
+    this.scene.add(this.signal);
     this.raycaster=new THREE.Raycaster();
     this.pointer=new THREE.Vector2();
     this.targets=[];
@@ -368,16 +341,16 @@ export class AtlasScene {
   setFocus(row) {
     this.focusLabel?.element.remove();
     this.focusLabel=null;
-    this.signal.group.visible=Boolean(row?.coordinates && this.view);
-    if(!this.signal.group.visible) return;
+    this.signal.visible=Boolean(row?.coordinates && this.view);
+    if(!this.signal.visible) return;
     const [x,z]=this.view.point(row.coordinates);
     const y=terrain(x,z,this.view);
-    this.signal.group.position.set(x,y+.13,z);
+    this.signal.position.set(x,y+1.2,z);
     const element=document.createElement('span');
     element.className='map-label featured-label';
     element.textContent=row.name;
     this.labelContainer.append(element);
-    this.focusLabel={element,position:new THREE.Vector3(x,y+5.8,z)};
+    this.focusLabel={element,position:new THREE.Vector3(x,y+3,z)};
   }
 
   fit(animate=true) {
@@ -402,9 +375,9 @@ export class AtlasScene {
 
   focus(row,distance=44) {
     this.setFocus(row);
-    if(!this.signal.group.visible) return;
+    if(!this.signal.visible) return;
     this.homeView=false;
-    const target=this.signal.group.position.clone();
+    const target=this.signal.position.clone();
     target.y=1.3;
     const position=target.clone().add(new THREE.Vector3(-.11,.62,.77).normalize().multiplyScalar(distance));
     this.moveTo(position,target,1250);
@@ -482,11 +455,8 @@ export class AtlasScene {
       this.land.scale.y=mix(.62,1,1-(1-progress)**3);
       if(progress===1) this.revealStart=null;
     }
-    if(this.signal.group.visible && !reducedMotion){
-      const pulse=(sec*.6)%1;
-      this.signal.pulse.scale.setScalar(1+pulse*1.5);
-      this.signal.pulse.material.opacity=.58*(1-pulse);
-      this.signal.jewel.rotation.y=sec*.7;
+    if(this.signal.visible && !reducedMotion){
+      this.signal.rotation.y=sec*.7;
     }
     this.renderer.render(this.scene,this.camera);
     this.placeLabels();
