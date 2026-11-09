@@ -4,7 +4,7 @@ import {OrbitControls} from './vendor/three/OrbitControls.js';
 const radians = Math.PI / 180;
 const longitudeScale = Math.cos(35 * radians);
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-const categoryColors = ['#edab75','#b1d4a1','#ce99a5','#e5ca88','#a5bedf','#ccbfa8'];
+const categoryColors = ['#974a3e','#3f7169','#76527e','#815633','#3e608c','#545d61'];
 const categoryNames = ['古建筑','古遗址','古墓葬','石窟寺及石刻','近现代重要史迹及代表性建筑','其他'];
 const clamp = THREE.MathUtils.clamp;
 const mix = THREE.MathUtils.lerp;
@@ -94,8 +94,9 @@ function buffer(positions, colors, normals=false) {
 
 function makeLand(feature, view) {
   const surface = [], walls = [], colors = [], normals = [];
-  const low = new THREE.Color('#38685d');
-  const high = new THREE.Color('#a1ac7a');
+  const low = new THREE.Color('#9dbeb1');
+  const middle = new THREE.Color('#e7c699');
+  const high = new THREE.Color('#ce999c');
   const shade = new THREE.Color();
   const normal = new THREE.Vector3();
   const normalStep = .15;
@@ -115,7 +116,8 @@ function makeLand(feature, view) {
       const dz = terrain(x,z+normalStep,view) - terrain(x,z-normalStep,view);
       normal.set(-dx,2*normalStep,-dz).normalize();
       normals.push(normal.x,normal.y,normal.z);
-      shade.copy(low).lerp(high,clamp((y-.43)/4.5,0,1));
+      const elevation = clamp((y-.43)/4.5,0,1);
+      shade.copy(low).lerp(middle,clamp(elevation*2.7,0,1)).lerp(high,clamp(elevation*1.45-.45,0,1));
       colors.push(shade.r,shade.g,shade.b);
     }
     for (const ring of [outer,...holes]) {
@@ -128,11 +130,11 @@ function makeLand(feature, view) {
   const surfaceGeometry = buffer(surface,colors);
   surfaceGeometry.setAttribute('normal',new THREE.Float32BufferAttribute(normals,3));
   const roof = new THREE.Mesh(surfaceGeometry, new THREE.MeshStandardMaterial({
-    vertexColors:true, roughness:.85, metalness:.06, emissive:'#000000'
+    vertexColors:true, roughness:1, emissive:'#000000'
   }));
   roof.userData.feature = feature;
   const rim = new THREE.Mesh(buffer(walls,null,true),new THREE.MeshStandardMaterial({
-    color:'#264940', roughness:.85, metalness:.24, side:THREE.DoubleSide
+    color:'#9a8ca4', roughness:1, side:THREE.DoubleSide
   }));
   const group = new THREE.Group();
   group.add(rim,roof);
@@ -166,7 +168,7 @@ function provinceBorders(features, view) {
     }
   }
   return new THREE.LineSegments(buffer(positions),new THREE.LineBasicMaterial({
-    color:'#d3d7b9',transparent:true,opacity:.54,depthWrite:false,toneMapped:false
+    color:'#4c5168',transparent:true,opacity:.63,depthWrite:false,toneMapped:false
   }));
 }
 
@@ -185,7 +187,7 @@ function stageDecoration() {
   const surface = new THREE.Mesh(new THREE.PlaneGeometry(152,152),new THREE.ShaderMaterial({
     transparent:true, depthWrite:false,
     vertexShader:'varying vec2 vUv; void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
-    fragmentShader:'varying vec2 vUv; void main(){float d=length((vUv-.5)*2.);float a=.18*(1.-smoothstep(.10,.81,d));gl_FragColor=vec4(.30,.48,.40,a);}'
+    fragmentShader:'varying vec2 vUv; void main(){float d=length((vUv-.5)*2.);float a=.20*(1.-smoothstep(.10,.81,d));gl_FragColor=vec4(.41,.47,.57,a);}'
   }));
   surface.rotation.x=-Math.PI/2;
   surface.position.y=-2.6;
@@ -196,7 +198,7 @@ function dustField() {
   let seed=98765;
   const next=()=>{ seed=(1664525*seed+1013904223)>>>0; return seed/4294967296; };
   const vertices=[], phases=[];
-  for(let i=0;i<120;i++){
+  for(let i=0;i<65;i++){
     vertices.push((next()-.5)*150, next()*17-1, (next()-.5)*116);
     phases.push(next()*6.283);
   }
@@ -204,16 +206,16 @@ function dustField() {
   geometry.setAttribute('position',new THREE.Float32BufferAttribute(vertices,3));
   geometry.setAttribute('phase',new THREE.Float32BufferAttribute(phases,1));
   const material=new THREE.ShaderMaterial({
-    uniforms:{time:{value:0},pixelRatio:{value:1}},transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+    uniforms:{time:{value:0},pixelRatio:{value:1}},transparent:true,depthWrite:false,
     vertexShader:'attribute float phase; uniform float time; uniform float pixelRatio; varying float a; void main(){vec3 p=position;p.y+=.7*sin(time*.36+phase);p.x+=sin(time*.13+phase);vec4 m=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*m;gl_PointSize=clamp(235./-m.z,1.,3.4)*pixelRatio;a=.15+.24*(.5+.5*sin(phase+time*.66));}',
-    fragmentShader:'varying float a; void main(){float r=length(gl_PointCoord-.5)*2.;gl_FragColor=vec4(1.,.72,.43,a*(1.-smoothstep(0.,1.,r)));}'
+    fragmentShader:'varying float a; void main(){float r=length(gl_PointCoord-.5)*2.;gl_FragColor=vec4(.39,.36,.46,.54*a*(1.-smoothstep(0.,1.,r)));}'
   });
   return new THREE.Points(geometry,material);
 }
 
 function signal() {
   return new THREE.Mesh(new THREE.OctahedronGeometry(.42),new THREE.MeshStandardMaterial({
-    color:'#f2b378',emissive:'#b54c1b',emissiveIntensity:1.3,metalness:.35,roughness:.28
+    color:'#a54e40',emissive:'#9e4837',emissiveIntensity:.23,roughness:1
   }));
 }
 
@@ -228,7 +230,7 @@ export class AtlasScene {
     this.renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'high-performance'});
     this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.65));
     this.renderer.toneMapping=THREE.ACESFilmicToneMapping;
-    this.renderer.toneMappingExposure=1.26;
+    this.renderer.toneMappingExposure=1.04;
     this.renderer.setClearColor(0x000000,0);
     this.renderer.domElement.setAttribute('aria-label','三维地形，可拖动旋转和缩放');
     container.append(this.renderer.domElement);
@@ -245,10 +247,10 @@ export class AtlasScene {
     this.camera.position.set(6,74,119);
     this.controls.update();
     this.controls.addEventListener('start',()=>{this.flight=null;this.homeView=false;this.actions.interaction();});
-    this.scene.add(new THREE.HemisphereLight('#d3ebdc','#263328',2.25));
-    const sun=new THREE.DirectionalLight('#ffe5b6',3.0);
+    this.scene.add(new THREE.HemisphereLight('#fff1dd','#878aa6',1.55));
+    const sun=new THREE.DirectionalLight('#ffe6ca',2.25);
     sun.position.set(-49,73,43);
-    const rim=new THREE.DirectionalLight('#84c4b8',1.5);
+    const rim=new THREE.DirectionalLight('#d6deff',.55);
     rim.position.set(52,26,-63);
     this.scene.add(sun,rim,stageDecoration());
     this.dust=dustField();
@@ -352,7 +354,7 @@ export class AtlasScene {
     }
     if(!items.length) return;
     const size=pointMode ? (items.length>500?.29:.60) : .15;
-    const material=new THREE.MeshBasicMaterial({color:'#ffffff'});
+    const material=new THREE.MeshBasicMaterial({color:'#ffffff',toneMapped:false});
     this.pinMesh=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(size,0),material,items.length);
     const positions=[], colors=[];
     const helper=new THREE.Object3D(), color=new THREE.Color();
@@ -373,7 +375,7 @@ export class AtlasScene {
     this.pins.add(this.pinMesh);
     const cloud=buffer(positions,colors);
     const glow=new THREE.Points(cloud,new THREE.PointsMaterial({
-      size:pointMode?.65:.34,vertexColors:true,transparent:true,opacity:.30,depthWrite:false,blending:THREE.AdditiveBlending
+      size:pointMode?.65:.34,vertexColors:true,transparent:true,opacity:.13,depthWrite:false,toneMapped:false
     }));
     this.pins.add(glow);
   }
@@ -460,7 +462,7 @@ export class AtlasScene {
     if(!hit) return;
     if(hit.object) {
       this.highlight=hit.object;
-      hit.object.material.emissive.set('#50614b');
+      hit.object.material.emissive.set('#b26355');
       hit.object.material.emissiveIntensity=.3;
     }
     this.renderer.domElement.style.cursor='pointer';
