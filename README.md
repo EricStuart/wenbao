@@ -33,6 +33,7 @@
 - `python complete_wikipedia_categories.py` 可补查 Wikidata 明确关联的文物专属相册，跳过已识别的村落集合和考古文化相册。相册关联仍需抽查，不能仅凭 Wikidata 关联判断每张照片都属于该处文物。
 - 前两步结束后运行 `python enrich_wikipedia_text.py`，为少于80字的百科导言补入同一引用版本的正文段落，过滤参考文献、图片代码和表格，并保留版本链接。`--prepare-only` 可先缓存正文而不修改详情文字。
 - 文字和来源保存在 `dist/data/wikipedia/<文物ID>.json`；实际图片文件保存在 `dist/assets/wikipedia/`，详情页不直接请求维基百科或远程图片。
+- 缺图或本地图片加载失败时，详情提供按文物名称搜索的抖音百科入口。搜索入口不复制百科图片；收录配图时需核对文物主体、地点与图片许可。
 - API 原始响应缓存位于 `sources/wiki-cache/`；汇总见 `dist/data/wikipedia/index.json`，采集与未匹配记录见 `wikipedia-audit.json`，补图结果见 `wikipedia-images-audit.json`。
 - 同名条目结合所在地和参考坐标匹配，并处理括号别名、地名修饰、长城分段和“造象／造像”等写法；拒绝歧义页、目录页、明显异地和同市不同区县的冲突。自动匹配不等于逐条人工审校。
 - `python recover_wikipedia_redirects.py` 应用 `sources/wikipedia-overrides.json` 中逐项复核的别名对应关系，处理旧行政区名称或百科重定向导致的漏收；例外仅对指定标题和已核对的版本生效，不放宽其他记录的自动匹配。寺庙中的特定塔、殿等子项另行核对配图主体。
