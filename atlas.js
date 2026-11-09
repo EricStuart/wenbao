@@ -1,4 +1,4 @@
-import {AtlasScene} from './atlas-scene.js';
+import {AtlasScene} from './atlas-scene.js?v=province-borders';
 
 const byId = id => document.getElementById(id);
 const national = {province:'',city:'',county:''};
@@ -180,7 +180,7 @@ async function setRegion(target) {
   const labels=view.field?view.features.map(f=>({
     name:f.properties.name,coordinates:window.HeritageGeo.center(f)
   })).filter(label=>label.name):[];
-  state.scene?.setView(view.features,state.filtered,labels,state.points||!view.field);
+  state.scene?.setView(view.features,state.filtered,labels,state.points||!view.field,view.field==='province');
   byId('stage').setAttribute('aria-busy','false');
   byId('stage').dataset.level=state.selection.county?'county':state.selection.city?'city':state.selection.province?'province':'national';
   return true;
