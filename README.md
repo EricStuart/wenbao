@@ -39,6 +39,8 @@
 - 图片不直接采用百科页面的全部图片列表：导航模板里的通用标志、地图和其他文物图片会被排除；正文配图须核对名称和市县。已知同名及误图的复核结果保存在 `sources/wikipedia-overrides.json`；剔除与文字修订记录分别见 `wikipedia-rejected-images.json`、`wikipedia-editorial-audit.json`。
 - 5,058条记录均有本地文字。未匹配到可靠百科条目的记录，依据已有公布名录中的所在地、时代、类型和批次生成基础简介，单独标为“名录简介／公布名录”，不编造历史叙述或冒充维基百科来源。
 - 2026-11-06 本轮收录：4,085条百科介绍、973条名录基础简介；2,435条有本地配图（2,433个独立图片文件），2,623条尚未取得可靠配图。全量文件、署名与已知图片主体限制检查通过；这不代表所有文字或图片已经逐条人工审定。
+- 2026-11-09 补充后：4,129条百科介绍、929条名录基础简介；2,452条有本地配图，2,606条仍待配图。为545条已有百科介绍及8条新匹配介绍补充了同一版本正文；20条存在批次、年份或文本格式疑点的正文扩充未采用。
+- `python update_missing_wikipedia.py` 可批量检索缺失百科介绍和已复核条目的图片；`--photos-only` 只补查图片。`python curate_wikipedia_update.py` 保存经人工核对的组合文物子项。需先运行 `python enrich_wikipedia_text.py --prepare-only --minimum 80 --maximum 150 --exact-title` 生成候选，再运行 `python apply_wikipedia_expansions.py` 应用冲突检查通过的正文。过程及跳过记录见 `wikipedia-update-*-audit.json`。
 - 百科介绍保存页面标题、版本号、永久链接、收录时间和 CC BY-SA 4.0 文字许可；图片保存 Commons 文件页、作者和该文件的许可。仅在取得可靠配图后显示照片，缺图明确标注；不会用通用风景图替代。下载采用来源接口返回的标准移动端缩略图，保留原图链接供追溯，响应类型通过检查后才写入本地。
 - `python audit_wikipedia.py` 检查全部本地文字、来源署名、图片引用与文件头，更新覆盖汇总及 `wikipedia-coverage-audit.json`；实际剩余缺图列在该文件的 `missingPhotos` 中。
 - `python -m unittest test_wikipedia.py test_wikipedia_text.py test_wikipedia_images.py -v` 验证同名异地、区县冲突、歧义页、别名匹配、文本截取、正文清洗、模板图片排除及署名清洗。

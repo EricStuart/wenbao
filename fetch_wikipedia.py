@@ -203,6 +203,8 @@ def match_reason(row, page):
     if any(word in title for word in ('列表', '名录', '文物保护单位')):
         return None
     reviewed=OVERRIDES.get(row.get('id'),{})
+    if title in reviewed.get('rejectedTitles',[]):
+        return None
     if reviewed.get('reviewedRevisionId')==page.get('lastrevid') and reviewed.get('title')==title and reviewed.get('reviewedReason'):
         return reviewed['reviewedReason']
     names = article_names(row)

@@ -2037,5 +2037,43 @@
     "reviewedRevisionId": 92175120,
     "reviewedReason": "复核名录别名、历史建筑与对应百科条目；旧行政地址不作为唯一判断依据",
     "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=92175120"
+  },
+  "wb-1-99": {
+    "title": "曲阜孔庙、孔林和孔府",
+    "reviewedRevisionId": 91237643,
+    "reviewedReason": "人工核对组合文物与百科条目的对应关系",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91237643"
+  },
+  "wb-2-1": {
+    "title": "林则徐销烟池",
+    "reviewedRevisionId": 91628545,
+    "reviewedReason": "人工核对组合文物与百科条目的对应关系",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=91628545"
+  },
+  "wb-2-8": {
+    "title": "西柏坡纪念馆",
+    "reviewedRevisionId": 94131936,
+    "reviewedReason": "人工核对组合文物与百科条目的对应关系",
+    "reviewedSourceUrl": "https://zh.wikipedia.org/w/index.php?oldid=94131936"
+  },
+  "wb-7-1049": {
+    "rejectedTitles": [
+      "三阳洪氏宗祠"
+    ]
+  },
+  "wb-8-181": {
+    "rejectedTitles": [
+      "金山汉墓群 (兰陵县)"
+    ]
+  },
+  "wb-6-783": {
+    "rejectedTitles": [
+      "周公庙遗址"
+    ]
+  },
+  "wb-6-986": {
+    "rejectedTitles": [
+      "鄂豫皖革命根据地旧址"
+    ]
   }
 }

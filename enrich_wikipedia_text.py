@@ -68,9 +68,15 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--workers',type=int,default=3)
     parser.add_argument('--prepare-only',action='store_true')
+    parser.add_argument('--minimum',type=int,default=0,help='Minimum current introduction length')
+    parser.add_argument('--maximum',type=int,default=80,help='Exclusive maximum introduction length')
+    parser.add_argument('--exact-title',action='store_true',help='Only enrich entries whose article and site names match')
+    parser.add_argument('--audit',default='wikipedia-text-audit.json',help='Report filename in the project root')
     args=parser.parse_args()
     entries=[json.loads(p.read_text(encoding='utf-8')) for p in w.DATA.glob('wb-*.json')]
-    candidates=[e for e in entries if e.get('status')=='ready' and len(e.get('text',''))<80]
+    candidates=[e for e in entries if e.get('status')=='ready' and args.minimum<=len(e.get('text',''))<args.maximum and e.get('textScope')!='body-excerpt']
+    if args.exact_title:
+        candidates=[e for e in candidates if w.normalized(CONVERTER.convert(e['name']))==w.normalized(CONVERTER.convert(e['title']))]
     ids=list(dict.fromkeys(e['revisionId'] for e in candidates))
     raw={};errors=[]
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -94,7 +100,7 @@ def main():
             w.save_json(path,current)
     w.save_json(w.CACHE/'enriched-text.json',expanded)
     report={'checked':len(candidates),'expanded':len(expanded),'prepareOnly':args.prepare_only,'errors':errors}
-    w.save_json(w.ROOT/'wikipedia-text-audit.json',report)
+    w.save_json(w.ROOT/args.audit,report)
     w.log(json.dumps({k:v for k,v in report.items() if k!='errors'}))
 
 

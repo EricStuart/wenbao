@@ -48,6 +48,11 @@ class WikipediaMatchTests(unittest.TestCase):
             self.page.pop('coordinates')
             self.assertIsNone(match_reason(self.row,self.page))
 
+    def test_previously_rejected_homonym_is_not_reused(self):
+        self.row['id']='reviewed-homonym'
+        with patch.dict('fetch_wikipedia.OVERRIDES',{'reviewed-homonym':{'rejectedTitles':['龙泉寺 (北京)']}}):
+            self.assertIsNone(match_reason(self.row,self.page))
+
     def test_unrelated_article_with_nearby_coordinates_rejected(self):
         self.page.update(title='颐和园', extract='颐和园位于北京市海淀区。')
         self.assertIsNone(match_reason(self.row, self.page))
