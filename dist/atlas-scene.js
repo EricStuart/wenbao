@@ -139,6 +139,37 @@ function makeLand(feature, view) {
   return {group,roof};
 }
 
+function provinceBorders(features, view) {
+  const edges = new Map();
+  for (const feature of features) {
+    for (const polygon of polygons(feature)) {
+      for (const ring of polygon) {
+        for (let i=1; i<ring.length; i++) {
+          const a = ring[i-1], b = ring[i];
+          const from = a.join(','), to = b.join(',');
+          if (from === to) continue;
+          const key = from < to ? `${from};${to}` : `${to};${from}`;
+          const edge = edges.get(key);
+          if (!edge) edges.set(key,{a,b,feature,shared:false});
+          else if (edge.feature !== feature) edge.shared = true;
+        }
+      }
+    }
+  }
+
+  const positions = [];
+  for (const {a,b,shared} of edges.values()) {
+    if (!shared) continue;
+    for (const coordinate of [a,b]) {
+      const [x,z] = view.point(coordinate);
+      positions.push(x,terrain(x,z,view)+.065,z);
+    }
+  }
+  return new THREE.LineSegments(buffer(positions),new THREE.LineBasicMaterial({
+    color:'#d3d7b9',transparent:true,opacity:.54,depthWrite:false,toneMapped:false
+  }));
+}
+
 function disposeChildren(group) {
   while (group.children.length) {
     const child=group.children[0];
@@ -266,7 +297,7 @@ export class AtlasScene {
     if(this.view && this.homeView) this.fit(false);
   }
 
-  setView(features, rows, labels, pointMode) {
+  setView(features, rows, labels, pointMode, showProvinceBorders) {
     this.clearHover();
     disposeChildren(this.land);
     this.targets=[];
@@ -286,6 +317,7 @@ export class AtlasScene {
       this.land.add(object.group);
       if(feature.properties.target) this.targets.push(object);
     }
+    if(showProvinceBorders) this.land.add(provinceBorders(features,this.view));
     for(const label of labels) this.addLabel(label);
     this.setRows(rows,pointMode);
     this.setFocus(null);
