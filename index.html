@@ -1,13 +1,104 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#e7ede7"><title>观迹 · 国保地图</title><meta name="description" content="在地图上探索全国重点文物保护单位。"><link rel="stylesheet" href="vendor/leaflet.css"><link rel="stylesheet" href="styles.css"><script defer src="vendor/echarts.min.js"></script><script defer src="vendor/leaflet.js"></script><script defer src="geo-model.js"></script><script defer src="wikipedia.js"></script><script defer src="app.js"></script></head><body>
-<svg class="svg-defs" aria-hidden="true"><defs><symbol id="search-icon" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol><symbol id="filter-icon" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2.5"/><circle cx="16" cy="17" r="2.5"/></symbol><symbol id="map-icon" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3ZM9 3v15M15 6v15"/></symbol><symbol id="list-icon" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12M3 6h.01M3 12h.01M3 18h.01"/></symbol><symbol id="location-icon" viewBox="0 0 24 24"><path d="m21 3-6.5 18-3-8.5L3 9.5Z"/></symbol><symbol id="reset-icon" viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 2.7 8.3"/><path d="M3 4v6h6"/></symbol></defs></svg>
-<main class="phone" aria-label="国保地图"><div id="map" role="img" aria-label="全国文物地图，可逐级点击省、市、县，查看具体文物位置，或用筛选和名录浏览"></div><div id="focus-map" class="focus-map" aria-label="文物周边街道地图" hidden></div><div class="map-vignette" aria-hidden="true"></div>
-<header class="top"><div class="title-row"><div class="wordmark"><span class="seal" aria-hidden="true">迹</span><div><h1>观迹</h1></div></div><div class="search-bar glass"><button id="search-toggle" type="button" aria-label="搜索文物" aria-expanded="false" aria-controls="search"><svg aria-hidden="true"><use href="#search-icon"/></svg></button><input type="search" id="search" aria-label="搜索文物或地点" placeholder="搜索文物" hidden></div></div><div class="chip-row"><div class="filter-tags"><button class="glass chip" id="region-open" aria-haspopup="dialog" aria-controls="regions"><span id="region-label">全国</span></button><button class="glass chip" id="type-open" aria-haspopup="dialog" aria-controls="types"><span id="type-label">类型</span></button><button class="glass chip" id="era-open" aria-haspopup="dialog" aria-controls="types"><span id="era-label">时代</span></button><button class="glass chip" id="batch-open" aria-haspopup="dialog" aria-controls="types"><span id="batch-label">批次</span></button></div><button class="glass filter-chip" id="filter-open" aria-label="打开筛选"><svg><use href="#filter-icon"/></svg><i id="filter-dot" hidden></i></button></div><div id="reset-row" class="reset-row" hidden><button class="glass circle" id="reset" type="button" aria-label="重置筛选" title="重置筛选" hidden><svg aria-hidden="true"><use href="#reset-icon"/></svg></button></div></header>
-<nav id="breadcrumbs" class="glass breadcrumbs" aria-label="地图层级" hidden></nav>
-<button class="glass circle scope-count" id="scope-count" aria-label="打开当前筛选范围内的国保列表" type="button">0</button><div class="map-tools"><button class="glass circle" id="map-back" aria-label="返回上一级" hidden>‹</button><div class="glass zoom"><button id="zoom-in" aria-label="放大地图">＋</button><span></span><button id="zoom-out" aria-label="缩小地图">−</button></div></div><div class="map-hint" id="map-hint" hidden aria-hidden="true">轻点省份，发现历史</div>
-<div id="loading" class="loading glass">正在展开地图…</div></main>
-<dialog id="regions" class="sheet region-sheet" aria-labelledby="regions-title"><div class="handle"></div><div class="sheet-heading"><h2 id="regions-title">选择地区</h2><button class="close" data-close aria-label="关闭地区选择">×</button></div><nav id="region-path" class="region-path" aria-label="地名层级"></nav><div id="region-options" class="sheet-content type-options" role="group" aria-label="地名标签"></div></dialog>
-<dialog id="types" class="sheet type-sheet" aria-labelledby="types-title"><div class="handle"></div><div class="sheet-heading"><h2 id="types-title">文物类型</h2><button class="close" data-close aria-label="关闭类型选择">×</button></div><div id="type-options" class="sheet-content type-options" role="group" aria-label="文物类型标签"></div></dialog>
-<dialog id="filters" class="sheet filter-sheet"><div class="handle"></div><div class="sheet-heading"><h2>筛选</h2><button class="close" data-close aria-label="关闭筛选">×</button></div><div class="sheet-content filter-content"><div class="filter-section"><div class="field"><span class="field-label" id="label-province">省 / 自治区 / 直辖市</span><button class="selection-control" type="button" data-picker="province" aria-labelledby="label-province value-province" aria-haspopup="dialog"><span id="value-province" class="selection-value">全国</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="province" hidden><option value="">全国</option></select></div><div class="field-pair"><div class="field"><span class="field-label" id="label-city">城市</span><button class="selection-control" type="button" data-picker="city" aria-labelledby="label-city value-city" aria-haspopup="dialog" disabled><span id="value-city" class="selection-value">全部城市</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="city" hidden disabled><option value="">全部城市</option></select></div><div class="field"><span class="field-label" id="label-county">区县</span><button class="selection-control" type="button" data-picker="county" aria-labelledby="label-county value-county" aria-haspopup="dialog" disabled><span id="value-county" class="selection-value">全部区县</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="county" hidden disabled><option value="">全部区县</option></select></div></div></div><div class="filter-section"><div class="field"><span class="field-label" id="label-category">文物类型</span><button class="selection-control" type="button" data-picker="category" aria-labelledby="label-category value-category" aria-haspopup="dialog"><span id="value-category" class="selection-value">全部类型</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="category" hidden><option value="">全部类型</option></select></div><div class="field-pair"><div class="field"><span class="field-label" id="label-era">时代</span><button class="selection-control" type="button" data-picker="era" aria-labelledby="label-era value-era" aria-haspopup="dialog"><span id="value-era" class="selection-value">全部时代</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="era" hidden><option value="">全部时代</option></select></div><div class="field"><span class="field-label" id="label-batch">批次</span><button class="selection-control" type="button" data-picker="batch" aria-labelledby="label-batch value-batch" aria-haspopup="dialog"><span id="value-batch" class="selection-value">全部批次</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button><select id="batch" hidden><option value="">全部批次</option></select></div></div></div><div class="filter-actions"><button id="filters-apply" class="primary">查看 <span id="filter-count">5,058</span> 处文物</button><div class="filter-secondary"><button id="filters-clear">清除筛选</button><button id="source-open">数据来源与说明</button></div></div></div></dialog>
-<dialog id="results" class="sheet"><div class="handle"></div><div class="sheet-heading"><div><h2>文物名录</h2><p id="list-subtitle"></p></div><button class="close" data-close aria-label="关闭名录">×</button></div><div class="sheet-content list-content"><div id="cards"></div><div id="empty" class="empty" hidden><svg><use href="#search-icon"/></svg><h3>没有找到相关文物</h3><p>换个关键词，或清除筛选再试试。</p><button class="secondary" id="empty-reset">清除筛选</button></div><div class="pagination"><button id="prev" aria-label="上一页">←</button><span id="page-status"></span><button id="next" aria-label="下一页">→</button></div></div></dialog>
-<dialog id="detail" class="sheet"><div class="handle"></div><button class="close detail-close" data-close aria-label="关闭详情">×</button><div id="detail-body" class="sheet-content"></div></dialog>
-<dialog id="info" class="sheet"><div class="handle"></div><div class="sheet-heading"><h2>关于这张地图</h2><button class="close" data-close aria-label="关闭说明">×</button></div><div class="sheet-content info-content"><p class="info-lead">让历史，在山河之间相遇。</p><p id="coverage-note"></p><details><summary>名录与定位说明</summary><p>基础名录来自 Atlas of China，补入安江农校纪念园、大生纱厂和北京市八宝山革命公墓，将冯焕阙与沈府君阙合为渠县汉阙，整理为 5,058 条。修正不代表所有历史调整均已全面审计。</p><p>坐标为第三方参考点位，不等于景区入口、保护范围或全部子项。未匹配坐标的记录保留于名录，不使用行政中心冒充实际地点。市县由历史地址匹配，可能仍需核对；时代标签辅助检索。</p><a href="data/research.json" target="_blank" rel="noopener">核对记录 ↗</a></details><details><summary>八批官方发布</summary><div id="batches"></div></details><details><summary>数据来源</summary><p>省市县边界已内置；文物周边街道底图需要联网，来自 <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors ↗</a>。</p><p><a href="https://www.atlasofchina.com/data/" target="_blank" rel="noopener">Atlas of China · CC BY 4.0 ↗</a></p><p><a href="https://www.arcgis.com/home/item.html?id=77373750e26d4d24a7e38fd9fcce2900" target="_blank" rel="noopener">ArcGIS 公开点位 ↗</a></p><p><a href="https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json" target="_blank" rel="noopener">DataV 省域轮廓 ↗</a></p><p><a href="https://github.com/modood/Administrative-divisions-of-China" target="_blank" rel="noopener">行政区划数据 ↗</a></p></details><small>核对日期 2026.11.06 · 独立整理，非官方发布平台<br>本次未检索到第九批全国名录正式公布通知。</small></div></dialog><div id="toast" role="status"></div></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c1514">
+<meta name="description" content="在三维地形中，探索全国重点文物保护单位。">
+<title>观迹 · 山河有迹</title>
+<link rel="stylesheet" href="atlas.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+<script defer src="geo-model.js"></script>
+<script defer src="wikipedia.js"></script>
+<script type="module" src="atlas.js"></script>
+</head>
+<body>
+<svg class="symbol-bank" aria-hidden="true">
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.6"/><path d="m16 16 4 4"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="m9 5 11 7-11 7Z"/></symbol>
+<symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7v8H4zM9 19v-6h6v6"/></symbol>
+<symbol id="i-layer" viewBox="0 0 24 24"><path d="m12 4 8 4-8 4-8-4zM4 12l8 4 8-4M4 16l8 4 8-4"/></symbol>
+<symbol id="i-cube" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9zM4 7.5l8 4.5 8-4.5M12 12v9"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+<symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 10-7 10S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2"/></symbol>
+</svg>
+<header class="topbar">
+  <a class="brand" href="./" aria-label="观迹首页"><span class="seal">迹</span><span><strong>观迹</strong><small>GUANJI ATLAS</small></span></a>
+  <nav aria-label="主导航"><button id="nav-map" class="nav-active">探索地图</button><button id="nav-list">文物名录</button><button id="nav-about">关于数据</button></nav>
+  <a class="flat-link" href="map-2d.html">二维地图 <span>↗</span></a>
+</header>
+<main class="atlas">
+  <div id="stage" class="stage" aria-label="可旋转的三维文物地图">
+    <div class="stage-plate" aria-hidden="true"></div>
+    <div id="scene"></div>
+    <div id="map-labels"></div>
+    <p id="scene-status" class="scene-status" role="status">正在布置地形展台…</p>
+    <div id="map-tooltip" class="map-tooltip" hidden></div>
+  </div>
+  <section class="intro" aria-labelledby="title">
+    <div class="eyebrow"><span></span> 中国国保文物地图</div>
+    <h1 id="title">山河有迹<span>。</span></h1>
+    <p>循着山河的纹理，寻访散落其间的历史。</p>
+    <div class="intro-actions">
+      <button id="tour" class="accent"><svg><use href="#i-play"/></svg><span>开始巡游</span></button>
+      <button id="search-open" class="square" aria-label="搜索文物" title="搜索文物"><svg><use href="#i-search"/></svg></button>
+    </div>
+    <div class="census">
+      <div><strong id="record-count">—</strong><small>全国重点文物保护单位</small></div>
+      <div><strong>08</strong><small>公布批次</small></div>
+    </div>
+  </section>
+  <aside class="featured" aria-labelledby="featured-title">
+    <div class="feature-heading"><span>馆藏选读</span><span id="feature-number">01 / 06</span></div>
+    <button id="feature-card" class="feature-card" aria-label="打开馆藏选读详情">
+      <img id="feature-image" src="assets/wikipedia/ec91eae862196df54855b02b.jpg" alt="佛光寺">
+      <span class="feature-shade"></span>
+      <span class="feature-content"><span id="feature-location">山西 · 忻州</span><strong id="featured-title">佛光寺</strong><span id="feature-era">唐代木构遗珍</span></span>
+      <span class="feature-arrow"><svg><use href="#i-arrow"/></svg></span>
+    </button>
+    <div class="feature-nav"><button id="feature-prev" aria-label="上一处馆藏">‹</button><div id="feature-dots" aria-label="馆藏选读进度"></div><button id="feature-next" aria-label="下一处馆藏">›</button></div>
+  </aside>
+  <div class="scene-heading"><span class="live-dot"></span><span id="scene-name">全国地形展台</span><span class="heading-rule"></span><span>3D ATLAS</span></div>
+  <div class="map-controls" aria-label="镜头控制">
+    <button id="points" aria-label="切换文物点位模式" title="切换点位" aria-pressed="false"><svg><use href="#i-layer"/></svg></button>
+    <button id="zoom-in" aria-label="放大" title="放大"><svg><use href="#i-plus"/></svg></button>
+    <button id="zoom-out" aria-label="缩小" title="缩小"><svg><use href="#i-minus"/></svg></button>
+    <button id="reset-view" aria-label="复位镜头" title="复位镜头"><svg><use href="#i-home"/></svg></button>
+  </div>
+  <div class="map-caption"><span class="legend-dot"></span> 文物参考点位 <span class="caption-sep"></span> 地形起伏为艺术示意</div>
+  <div class="map-hint" id="map-hint">拖动旋转 · 滚轮缩放 · 点击省份探索</div>
+  <section class="dock" aria-label="地图筛选">
+    <div class="dock-region"><svg><use href="#i-pin"/></svg><div><span class="dock-label">探索范围</span><div id="breadcrumb" class="breadcrumb"></div></div></div>
+    <div class="dock-filters">
+      <label><span>地区</span><select id="region-select" aria-label="选择地区"></select></label>
+      <label><span>类型</span><select id="category-select" aria-label="文物类型"></select></label>
+      <label><span>时代</span><select id="era-select" aria-label="文物时代"></select></label>
+      <label><span>批次</span><select id="batch-select" aria-label="文物批次"></select></label>
+    </div>
+    <button id="scope-list" class="scope-list"><strong id="scope-count">—</strong><span>处文物</span><svg><use href="#i-arrow"/></svg></button>
+  </section>
+</main>
+<dialog id="catalogue" class="panel-dialog">
+  <div class="dialog-head"><div><span class="eyebrow">HERITAGE INDEX</span><h2>文物名录</h2></div><button class="square" data-close aria-label="关闭名录"><svg><use href="#i-close"/></svg></button></div>
+  <label class="search-field"><svg><use href="#i-search"/></svg><input id="query" type="search" placeholder="搜索文物、地点、朝代" aria-label="搜索文物、地点、朝代"></label>
+  <div class="list-meta"><span id="list-summary" aria-live="polite"></span><label><input id="search-global" type="checkbox" checked> 搜索全国</label></div>
+  <div id="list-results" class="list-results"></div>
+  <div class="pagination"><button id="list-prev">上一页</button><span id="list-page"></span><button id="list-next">下一页</button></div>
+</dialog>
+<dialog id="detail" class="panel-dialog detail-dialog">
+  <div class="dialog-head"><div><span class="eyebrow" id="detail-tag"></span><h2 id="detail-title"></h2></div><button class="square" data-close aria-label="关闭详情"><svg><use href="#i-close"/></svg></button></div>
+  <div id="detail-scroll" class="detail-scroll"><p id="detail-address"></p><div id="detail-content"></div></div>
+  <div class="detail-actions"><button id="detail-focus" class="accent"><svg><use href="#i-pin"/></svg> 定位到地图</button><button id="detail-share" class="soft">复制条目链接</button><a id="detail-source" target="_blank" rel="noopener">公布名录 ↗</a></div>
+</dialog>
+<dialog id="about" class="panel-dialog about-dialog">
+  <div class="dialog-head"><div><span class="eyebrow">ABOUT THE ATLAS</span><h2>关于观迹</h2></div><button class="square" data-close aria-label="关闭说明"><svg><use href="#i-close"/></svg></button></div>
+  <div class="about-copy"><p>观迹收录第一至第八批全国重点文物保护单位。可以按地区逐级探索，也可以在名录中检索文物。</p><p>行政边界用于浏览，地形起伏为程序生成的艺术示意。文物参考点位不等于景区入口或保护范围。图文来源与图片许可随条目显示。</p><p><a href="data/research.json" target="_blank" rel="noopener">查看数据核对记录 ↗</a> · <a href="map-2d.html">打开二维地图 ↗</a></p></div>
+</dialog>
+<div id="toast" role="status" hidden></div>
+<noscript><p class="no-script">此地图需要 JavaScript。<a href="map-2d.html">打开二维版</a></p></noscript>
+</body>
+</html>
