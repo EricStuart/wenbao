@@ -42,11 +42,11 @@ svg:not(.symbol-bank) { width:20px; height:20px; fill:none; stroke:currentColor;
 #scene canvas:active { cursor:grabbing }
 #map-labels { pointer-events:none; overflow:hidden }
 .map-label { position:absolute; transform:translate(-50%,-50%); color:#e4e5d0; font-size:11px; white-space:nowrap; letter-spacing:.08em; text-shadow:0 1px 5px #09120e,0 0 7px #111c16; padding:1px 4px }
-.map-label.featured-label { color:#ffdbad; border:1px solid #e2b78162; background:#111d18eb; border-radius:4px; font-size:12px; padding:5px 8px; z-index:1 }
-.map-label.pin-label { color:#f6e8cf; background:#0c1714de; border:1px solid #d5ac6b55; border-radius:4px; max-width:calc(100% - 8px); white-space:normal; width:max-content; text-align:center }
+.map-label.featured-label { color:#ffdbad; background:#111d18eb; border-radius:4px; font-size:12px; padding:5px 8px; z-index:1 }
+.map-label.pin-label { color:#f6e8cf; background:#0c1714de; border-radius:4px; max-width:calc(100% - 8px); white-space:normal; width:max-content; text-align:center }
 .scene-status { position:absolute; top:45%; width:100%; text-align:center; padding:15px; font-size:13px; color:var(--muted); pointer-events:none }
 .scene-status a { pointer-events:auto }
-.map-tooltip { position:absolute; pointer-events:none; padding:7px 10px; border:1px solid #c39f6d64; background:#0d1715f2; color:var(--text); border-radius:4px; font-size:12px; white-space:nowrap; z-index:4 }
+.map-tooltip { position:absolute; pointer-events:none; padding:7px 10px; background:#0d1715f2; color:var(--text); border-radius:4px; font-size:12px; white-space:nowrap; z-index:4 }
 .intro { position:absolute; z-index:1; top:8.4%; left:36px; width:270px; pointer-events:none }
 .intro-actions,.intro a { pointer-events:auto }
 .eyebrow { display:flex; align-items:center; gap:9px; color:var(--gold); letter-spacing:.2em; font-size:10px; font-weight:650 }
