@@ -41,7 +41,7 @@ function terrain(x, z, view) {
   const plateau = Math.exp(-((lon - 88) ** 2 / 360 + (lat - 31) ** 2 / 50));
   const range = Math.exp(-((lon - 102) ** 2 / 450 + (lat - 37) ** 2 / 94));
   const ridges = Math.abs(Math.sin(x * .27 + Math.sin(z * .15) * 2.2) * Math.cos(z * .22 - x * .12));
-  const grain = Math.sin(x * .83 + z * .57) * Math.sin(z * .74 - x * .29) * .16;
+  const grain = Math.sin(x * .83 + z * .57) * Math.sin(z * .74 - x * .29) * .08;
   return 0.55 + plateau * 2.7 + ridges * (.52 + plateau * 2.0 + range * .6) + grain;
 }
 
@@ -123,24 +123,12 @@ function makeLand(feature, view) {
   const roof = new THREE.Mesh(buffer(surface,colors,true), new THREE.MeshStandardMaterial({
     vertexColors:true, roughness:.73, metalness:.09, side:THREE.DoubleSide, emissive:'#000000'
   }));
-  roof.material.onBeforeCompile=shader=>{
-    shader.vertexShader='varying float vReliefHeight;\n'+shader.vertexShader.replace(
-      '#include <begin_vertex>', '#include <begin_vertex>\nvReliefHeight = position.y;'
-    );
-    shader.fragmentShader='varying float vReliefHeight;\n'+shader.fragmentShader.replace(
-      '#include <color_fragment>', `#include <color_fragment>
-      float elevation = vReliefHeight * 3.4;
-      float band = abs(fract(elevation + .5) - .5);
-      float line = 1.0 - smoothstep(.04, .04 + fwidth(elevation), band);
-      diffuseColor.rgb *= 1.0 - .19 * line;`
-    );
-  };
   roof.userData.feature = feature;
   const rim = new THREE.Mesh(buffer(walls,null,true),new THREE.MeshStandardMaterial({
     color:'#264940', roughness:.85, metalness:.24, side:THREE.DoubleSide
   }));
   const outline = new THREE.LineSegments(buffer(outlines),new THREE.LineBasicMaterial({
-    color:'#aab795', transparent:true, opacity:.5
+    color:'#b6c4a9', transparent:true, opacity:.28
   }));
   const group = new THREE.Group();
   group.add(rim,roof,outline);
@@ -168,18 +156,11 @@ function ring(radius, color, opacity, y) {
 
 function stageDecoration() {
   const group = new THREE.Group();
-  group.add(ring(57,'#a88b62',.21,-2.45),ring(59.5,'#7c9c87',.13,-2.45),ring(64,'#7c9c87',.11,-2.45));
-  const ticks=[];
-  for(let i=0;i<180;i++){
-    const angle=i*Math.PI/90;
-    const r=i%15===0?61.5:63.1;
-    ticks.push(Math.cos(angle)*r,-2.4,Math.sin(angle)*r,Math.cos(angle)*64,-2.4,Math.sin(angle)*64);
-  }
-  group.add(new THREE.LineSegments(buffer(ticks),new THREE.LineBasicMaterial({color:'#ac9e78',transparent:true,opacity:.32})));
+  group.add(ring(60,'#bda57c',.20,-2.45));
   const surface = new THREE.Mesh(new THREE.PlaneGeometry(152,152),new THREE.ShaderMaterial({
     transparent:true, depthWrite:false,
     vertexShader:'varying vec2 vUv; void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',
-    fragmentShader:'varying vec2 vUv; void main(){vec2 p=(vUv-.5)*2.;float d=length(p);vec2 t=abs(fract(p*31.+.5)-.5);float line=1.-smoothstep(.012,.04,min(t.x,t.y));float a=(1.-smoothstep(.22,.95,d))*(.13+.11*line);gl_FragColor=vec4(.30,.48,.40,a);}'
+    fragmentShader:'varying vec2 vUv; void main(){float d=length((vUv-.5)*2.);float a=.18*(1.-smoothstep(.10,.81,d));gl_FragColor=vec4(.30,.48,.40,a);}'
   }));
   surface.rotation.x=-Math.PI/2;
   surface.position.y=-2.6;
@@ -191,7 +172,7 @@ function dustField() {
   let seed=98765;
   const next=()=>{ seed=(1664525*seed+1013904223)>>>0; return seed/4294967296; };
   const vertices=[], phases=[];
-  for(let i=0;i<260;i++){
+  for(let i=0;i<120;i++){
     vertices.push((next()-.5)*150, next()*17-1, (next()-.5)*116);
     phases.push(next()*6.283);
   }
@@ -357,7 +338,7 @@ export class AtlasScene {
       items.push({row,x,z});
     }
     if(!items.length) return;
-    const size=pointMode ? (items.length>500?.29:.60) : .19;
+    const size=pointMode ? (items.length>500?.29:.60) : .15;
     const material=new THREE.MeshBasicMaterial({color:'#ffffff'});
     this.pinMesh=new THREE.InstancedMesh(new THREE.IcosahedronGeometry(size,0),material,items.length);
     const positions=[], colors=[];
@@ -369,6 +350,7 @@ export class AtlasScene {
       helper.updateMatrix();
       this.pinMesh.setMatrixAt(index,helper.matrix);
       color.set(categoryColors[Math.max(0,categoryNames.indexOf(row.category))]);
+      if(!pointMode) color.multiplyScalar(.74);
       this.pinMesh.setColorAt(index,color);
       positions.push(x,y,z);
       colors.push(color.r,color.g,color.b);

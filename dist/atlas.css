@@ -35,7 +35,6 @@ svg:not(.symbol-bank) { width:20px; height:20px; fill:none; stroke:currentColor;
 .flat-link { color:var(--muted); text-decoration:none; border:1px solid var(--line); padding:8px 13px; border-radius:5px; font-size:12px; white-space:nowrap }
 .flat-link span { margin-left:5px; color:var(--accent) }
 .atlas { height:calc(100dvh - 72px); min-height:640px; position:relative; isolation:isolate; overflow:hidden; background:radial-gradient(ellipse at 51% 48%,#1a302b 0%,#101d1a 42%,#0b1413 74%) }
-.atlas::before { content:""; position:absolute; inset:0; z-index:-1; pointer-events:none; background-image:radial-gradient(#c5b18b23 .65px,transparent .8px); background-size:21px 21px; mask-image:radial-gradient(ellipse,#000,transparent 77%) }
 .stage { position:absolute; inset:36px 180px 96px 158px; touch-action:none }
 .stage-plate { position:absolute; inset:0; pointer-events:none; background:radial-gradient(ellipse,#69816b13,transparent 64%) }
 #scene,#map-labels { position:absolute; inset:0 }
