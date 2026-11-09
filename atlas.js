@@ -1,4 +1,4 @@
-import {AtlasScene} from './atlas-scene.js?v=province-borders';
+import {AtlasScene} from './atlas-scene.js?v=moebius';
 
 const byId = id => document.getElementById(id);
 const national = {province:'',city:'',county:''};
