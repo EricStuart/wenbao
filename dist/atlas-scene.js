@@ -40,9 +40,8 @@ function terrain(x, z, view) {
   const [lon, lat] = view.geo(x, z);
   const plateau = Math.exp(-((lon - 88) ** 2 / 360 + (lat - 31) ** 2 / 50));
   const range = Math.exp(-((lon - 102) ** 2 / 450 + (lat - 37) ** 2 / 94));
-  const ridges = Math.abs(Math.sin(x * .27 + Math.sin(z * .15) * 2.2) * Math.cos(z * .22 - x * .12));
-  const grain = Math.sin(x * .83 + z * .57) * Math.sin(z * .74 - x * .29) * .08;
-  return 0.55 + plateau * 2.7 + ridges * (.52 + plateau * 2.0 + range * .6) + grain;
+  const ridges = Math.sin(x * .21 + Math.sin(z * .12) * 1.8) * Math.cos(z * .18 - x * .10);
+  return 0.55 + plateau * 2.7 + ridges ** 2 * (.35 + plateau * 1.45 + range * .5);
 }
 
 function ringPoints(ring, view) {
@@ -94,10 +93,12 @@ function buffer(positions, colors, normals=false) {
 }
 
 function makeLand(feature, view) {
-  const surface = [], walls = [], colors = [];
+  const surface = [], walls = [], colors = [], normals = [];
   const low = new THREE.Color('#38685d');
   const high = new THREE.Color('#a1ac7a');
   const shade = new THREE.Color();
+  const normal = new THREE.Vector3();
+  const normalStep = .15;
   for (const polygon of polygons(feature)) {
     const outer = ringPoints(polygon[0],view);
     if (outer.length < 3 || area(outer) < .004) continue;
@@ -109,6 +110,11 @@ function makeLand(feature, view) {
     for (let i=0;i<flat.length;i+=2) {
       const x=flat[i], z=-flat[i+1], y=terrain(x,z,view);
       surface.push(x,y,z);
+      // Sample the shared height field so lighting stays continuous across faces and regions.
+      const dx = terrain(x+normalStep,z,view) - terrain(x-normalStep,z,view);
+      const dz = terrain(x,z+normalStep,view) - terrain(x,z-normalStep,view);
+      normal.set(-dx,2*normalStep,-dz).normalize();
+      normals.push(normal.x,normal.y,normal.z);
       shade.copy(low).lerp(high,clamp((y-.43)/4.5,0,1));
       colors.push(shade.r,shade.g,shade.b);
     }
@@ -119,8 +125,10 @@ function makeLand(feature, view) {
     }
   }
   if (!surface.length) return null;
-  const roof = new THREE.Mesh(buffer(surface,colors,true), new THREE.MeshStandardMaterial({
-    vertexColors:true, roughness:.73, metalness:.09, side:THREE.DoubleSide, emissive:'#000000'
+  const surfaceGeometry = buffer(surface,colors);
+  surfaceGeometry.setAttribute('normal',new THREE.Float32BufferAttribute(normals,3));
+  const roof = new THREE.Mesh(surfaceGeometry, new THREE.MeshStandardMaterial({
+    vertexColors:true, roughness:.85, metalness:.06, emissive:'#000000'
   }));
   roof.userData.feature = feature;
   const rim = new THREE.Mesh(buffer(walls,null,true),new THREE.MeshStandardMaterial({
